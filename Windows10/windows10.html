@@ -1,6 +1,8 @@
 <html>
 <head>
 <title>Windows Tip Sheet</title>
+<script src = "windows.js" defer></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
 
@@ -8,9 +10,9 @@ Last updated: Nov 2022
 <h1>Cyberpatriot Windows Tip Sheet</h1>
 
 <h2 id="toc">Table of Contents</a></h2>
-
 <a href="#software">System Updates &amp; Software</a></br>
 <a href="#filesystem">File System</a></br>
+
 <a href="#secpol">Security Policy</a></br>
 <a href="#gpedit">Local Group Policy</a></br>
 <a href="#gpo">Global Domain Policy</a></br>
@@ -26,47 +28,49 @@ Last updated: Nov 2022
 
 <h2>Checklist</h2>
 <pre>
-[ ] Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
-[ ] Enable the firewall <a href="#network">Network Security</a>
-[ ] Enable/verify antivirus is running <a href="#gpo">Global Domain Policy</a>
-[ ] Enable/verify that Windows Event Log service is running (services.msc) <a href="#services">Services & Processes</a>
-[ ] Enable/verify Windows Update service/Software Updates are running.  (START SYSTEM UPDATES) <a href="#software">System Updates &amp; Software</a>
+<div id ="checkbox-container">
+<input type="checkbox" id="hidden">Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
+<input type="checkbox" id="firewall">Enable the firewall <a href="#network">Network Security</a>
+<input type="checkbox" id="antivirus">Enable/verify antivirus is running <a href="#gpo">Global Domain Policy</a>
+<input type="checkbox" id="eventlog">Enable/verify that Windows Event Log service is running (services.msc) <a href="#services">Services & Processes</a>
+<input type="checkbox" id="update">Enable/verify Windows Update service/Software Updates are running.  (START SYSTEM UPDATES) <a href="#software">System Updates &amp; Software</a>
 
-[ ] EVALUATE THE FORENSIC QUESTIONS
+<input type="checkbox" id="forensics">EVALUATE THE FORENSIC QUESTIONS
     Forensic question generally asks for a directory where an unauthorized file or user was found. Check FORENSICS before removing anything!
     DON'T get bogged down in the forensics, but be careful not to delete evidence!
 
-[ ] SAVE EVIDENCE. If a file, immediately make a copy of the forensic file and place on the host system so we don't forget
+<input type="checkbox" id="evidence"> SAVE EVIDENCE. If a file, immediately make a copy of the forensic file and place on the host system so we don't forget
 
-Reconcile authorized users (lusrmgr.msc)
-[ ] create a text file containing authorized users from the README
-[ ] Remove unauthorized users <a href="#lusrmgr">Local User Management</a>
-[ ] Add any missing authorized users <a href="#lusrmgr">Local User Management</a>
-[ ] Remove non-admins from admin group/set them to standard user <a href="#lusrmgr">Local User Management</a>
-[ ] Remove unauthorized user directories c:\users or /home (BUT do your forensics first!) <a href="#filesystem">File System</a>
-[ ] Look for unauthorized file shares (check the README and Forensics first) <a href="#filesystem">File System</a>
-[ ] Check file permissions (read your readme file!!!!) <a href="#filesystem">File System</a>
+<input type="checkbox" id="reconcile">Reconcile authorized users (lusrmgr.msc)
+<input type="checkbox" id="users">create a text file containing authorized users from the README
+<input type="checkbox" id="unauthorizedusers"> Remove unauthorized users <a href="#lusrmgr">Local User Management</a>
+<input type="checkbox" id="missing">Add any missing authorized users <a href="#lusrmgr">Local User Management</a>
+<input type="checkbox" id="admins">Remove non-admins from admin group/set them to standard user <a href="#lusrmgr">Local User Management</a>
+<input type="checkbox" id="directories">Remove unauthorized user directories c:\users or /home (BUT do your forensics first!) <a href="#filesystem">File System</a>
+<input type="checkbox" id="fileshare">Look for unauthorized file shares (check the README and Forensics first) <a href="#filesystem">File System</a>
+<input type="checkbox" id="permissions">Check file permissions (read your readme file!!!!) <a href="#filesystem">File System</a>
 
-[ ] Run CP_winscript.ps1 on Windows (PowerShell run as administrator)
+<input type="checkbox" id="script">Run CP_winscript.ps1 on Windows (PowerShell run as administrator)
 
-[ ] Run the <strong>"lgpo.exe /s GptTmpl.inf"</strong> import 
+<input type="checkbox" id="import">Run the <strong>"lgpo.exe /s GptTmpl.inf"</strong> import 
 
-[ ] Group Policy <a href="#gpo">Global Domain Policy</a>
+<input type="checkbox" id="gpo">Group Policy <a href="#gpo">Global Domain Policy</a>
     
-[ ] Update the default browser as indicated in the README file (e.g. Firefox) <a href="#browser">Browser Settings</a>
-    [ ] Firefox pop-up blocker enabled
-    [ ] Firefox automatically installs updates
-[ ] Update all required, valid software to latest version as defined in README
-[ ] Remove unsanctioned and unwanted programs. <a href="#software">System Updates &amp; Software</a>
+<input type="checkbox" id="default">Update the default browser as indicated in the README file (e.g. Firefox) <a href="#browser">Browser Settings</a>
+    <input type="checkbox" id="popup"> Firefox pop-up blocker enabled
+    <input type="checkbox" id="firefoxupdates">Firefox automatically installs updates
+<input type="checkbox" id="software update">Update all required, valid software to latest version as defined in README
+<input type="checkbox" id="badprogram"> Remove unsanctioned and unwanted programs. <a href="#software">System Updates &amp; Software</a>
 
-[ ] Stop and disable unauthorized services
+<input type="checkbox" id="badservice">Stop and disable unauthorized services
     o run netstat -ant and check for listening services.  
 	  Check your services file to see what ports map to what services
            Win: C:\Windows\System32\drivers\etc\services
 
-[ ] Remove unauthorized files (mp3, m4b, .aa, .mkv, .m4r) (did you do forensics first?!)
-[ ] Remove hacking tools (nmap, rainbowcrack, ophcrack,*crack*, xhydra, wireshark, openvpn, betternetVPN, *sploit*) (did you do forensics first?!)
-[ ] Set remote access related settings (RDP, openSSH) defined in README
+<input type="checkbox" id="badfiles">Remove unauthorized files (mp3, m4b, .aa, .mkv, .m4r) (did you do forensics first?!)
+<input type="checkbox" id="hacking">Remove hacking tools (nmap, rainbowcrack, ophcrack,*crack*, xhydra, wireshark, openvpn, betternetVPN, *sploit*) (did you do forensics first?!)
+<input type="checkbox" id="remote"> Set remote access related settings (RDP, openSSH) defined in README
+</div>
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="software">System Updates &amp; Software</h2>
