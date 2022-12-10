@@ -36,7 +36,7 @@ Last updated: Nov 2022
 
 
 <input type="checkbox" id="evidence3"> SAVE EVIDENCE. If a file, immediately make a copy of the forensic file and place on the host system so we don't forget
-<h2><b><a href = "../UploadFiles/uploadfile.html">CLICK HERE TO UPLOAD FILES</a></b></h2>
+<!--<h2><b><a href = "../UploadFiles/uploadfile.php">CLICK HERE TO UPLOAD FILES</a></b></h2>-->
     Note: if you are dealing with <strong>encryption/encoding/stegonography/hash</strong>, look in the related section in the <u>General Tips</u> sheet.
 
 Reconcile authorized users (cat /etc/passwd)
@@ -66,6 +66,8 @@ Reconcile authorized users (cat /etc/passwd)
 <input type="checkbox" id="badfile3">Remove unauthorized files (mp3, m4b, .aa, .mkv, .m4r) (did you do forensics first?!) <a href="#filesystem">File System</a>
 <input type="checkbox" id="hacking3">Remove hacking tools (nmap, rainbowcrack, ophcrack,*crack*, xhydra, wireshark, openvpn, betternetVPN, *sploit*) (did you do forensics first?!) <a href="#filesystem">File System</a>
 <input type="checkbox" id="remote3">Set remote access related settings (openSSH) defined in README (see policy section) <a href="#secpol">Security Policy</a>
+
+<a href = "LinuxChecklist.txt">Other Checklist and useful commands</a>
 </div>
 </pre>
 <a href="#toc">back to toc</a></br>
