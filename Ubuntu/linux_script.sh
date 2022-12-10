@@ -59,7 +59,8 @@ sudo sed -i -e '/pam_unix.so/s/obscure use_authtok/obscure use_authtok remember=
 sudo sed -i -e '/pam_cracklib.so/s/retry=3 minlen=8 difok=3/retry=3 minlen=8 difok=3 ucredit=-1 lcredit=-1 dcredit=-1 ocredit=-1/' /etc/pam.d/common-password
 
 sudo cp /etc/pam.d/common-auth /home/$USER/Desktop/backups/common-auth
-sudo sed -i '$ a auth required pam_tally2.so deny=5 onerr=fail unlock_time=1800' /etc/pam.d/common-auth
+<<com sudo sed -i '$ a auth required pam_tally2.so deny=5 onerr=fail unlock_time=1800' /etc/pam.d/common-auth 
+com
 
 sudo cp /etc/login.defs /home/$USER/Desktop/backups/login.defs
 sudo sed -i -e '/PASS_MAX_DAYS/s/99999/90/' /etc/login.defs
