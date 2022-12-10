@@ -1,9 +1,9 @@
+<!DOCTYPE html> 
 <html>
 <head>
 <title>Linux Tip Sheet</title>
 <script src = "ubuntu.js" defer></script>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+
 </head>
 <body>
 
@@ -34,28 +34,9 @@ Last updated: Nov 2022
     Forensic question generally asks for a directory where an unauthorized file or user was found. Check FORENSICS before removing anything!
     DON'T get bogged down in the forensics, but be careful not to delete evidence!
 
+
 <input type="checkbox" id="evidence3"> SAVE EVIDENCE. If a file, immediately make a copy of the forensic file and place on the host system so we don't forget
-<form action="https://script.google.com/a/macros/capboise.org/s/AKfycbyV-1bNTvA5hmtqk7hCdHKfIIMFPHB3whxr8Y7FI-2p3rNdaQfX2y3Al-oVwpQR7RM/exec" id="form" method="post">
-  Upload a file
-  <div id="data"></div>
-  <input name="file" id="uploadfile" type="file">
-  <input id="submit" type="submit">
-</form>
-<script>
-$('#uploadfile').on("change", function() {
-  var file = this.files[0];
-  var fr = new FileReader();
-  fr.fileName = file.name
-  fr.onload = function(e) {
-      e.target.result
-      html = '<input type="hidden" name="data" value="' + e.target.result.replace(/^.*,/, '') + '" >';
-      html += '<input type="hidden" name="mimetype" value="' + e.target.result.match(/^.*(?=;)/)[0] + '" >';
-      html += '<input type="hidden" name="filename" value="' + e.target.fileName + '" >';
-      $("#data").empty().append(html);
-  }
-  fr.readAsDataURL(file);
-});
-</script>
+<h2><b><a href = "../UploadFiles/uploadfile.html">CLICK HERE TO UPLOAD FILES</a></b></h2>
     Note: if you are dealing with <strong>encryption/encoding/stegonography/hash</strong>, look in the related section in the <u>General Tips</u> sheet.
 
 Reconcile authorized users (cat /etc/passwd)
@@ -67,8 +48,8 @@ Reconcile authorized users (cat /etc/passwd)
 <input type="checkbox" id="filepermissions">Check file permissions <a href="#filesystem">File System</a> (read your readme file!!!!) 
 
 <input type="checkbox" id="script3"> Run bash script on Ubuntu
-    * Set secure passwords on user accounts.  Use our "BoiseBee#1" and be consistent.  
-    <button type = "submit" onclick="widnow.open('linux_script.sh')"> Download </button>
+    * Set secure passwords on user accounts.  Use our "BoiseBee#1" and be consistent.
+    <a href = 'linux_script.sh' download="linux_script.sh">Download</a> <strong>RIGHT CLICK ON LINK AND PRESS SAVE LINK AS(IF NO DOWNLOAD)</strong> 
 
 <input type="checkbox" id="secpol">Policy <a href="#secpol">Security Policy</a>
     

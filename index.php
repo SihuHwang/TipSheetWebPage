@@ -9,11 +9,10 @@
             <div class="dropdown">
                 <button class = "dropbtn">CHOOSE YOUR OS</button>
                 <div class="dropdown-content">
-                <a href="Windows10/windows10.html" target="_blank">Windows 10</a>
-                <a href="WindowsServer/WindowsServer.html" target="_blank">Windows Server</a>
-                <a href="Ubuntu/Ubuntu.html" target="_blank">Ubuntu</a>
-                <a href="Cisco/Cisco.html" target="_blank">Cisco</a>
-                <a href="test/test.html" target="_blank">test</a>
+                <a href="Windows10/windows10.php" target="_blank">Windows 10</a>
+                <a href="WindowsServer/windowsServer.php" target="_blank">Windows Server</a>
+                <a href="Ubuntu/Ubuntu.php" target="_blank">Ubuntu</a>
+                <a href="Cisco/cap_cisco_tips.php" target="_blank">Cisco</a>
                 </div>
             </div>
             <br>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Windows Tip Sheet</title>
@@ -17,7 +18,7 @@ Last updated: Nov 2022
 <a href="#gpedit">Local Group Policy</a></br>
 <a href="#gpo">Global Domain Policy</a></br>
 <a href="#lusrmgr">Local User Management</a></br>
-<a href="#network">Network Security</a></br>
+<a href="#network">Network Secuity</a></br>
 <a href="#services">Services & Processes</a></br>
 <a href="#browser">Browser Settings</a></br>
 <a href="#logs">Log Files and Event Logs</a></br>

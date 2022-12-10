@@ -1,13 +1,13 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>Windows Server Tip Sheet</title>
-        <script src = "windowsServer.js" defer></script>
+<head>
+<title>Windows Tip Sheet</title>
+<script src = "windows.js" defer></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    </head>
-    <body>
-        Last updated: Nov 2022
-<h1>Cyberpatriot Windows Server Tip Sheet</h1>
+</head>
+<body>
+
+Last updated: Nov 2022
+<h1>Cyberpatriot Windows Tip Sheet</h1>
 
 <h2 id="toc">Table of Contents</a></h2>
 <a href="#software">System Updates &amp; Software</a></br>
@@ -28,48 +28,51 @@
 
 <h2>Checklist</h2>
 <pre>
-<div id ="checkbox-container2">
-<input type="checkbox" id="hidden2">Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
-<input type="checkbox" id="firewall2">Enable the firewall <a href="#network">Network Security</a>
-<input type="checkbox" id="antivirus2">Enable/verify antivirus is running <a href="#gpo">Global Domain Policy</a>
-<input type="checkbox" id="eventlog2">Enable/verify that Windows Event Log service is running (services.msc) <a href="#services">Services & Processes</a>
-<input type="checkbox" id="update2">Enable/verify Windows Update service/Software Updates are running.  (START SYSTEM UPDATES) <a href="#software">System Updates &amp; Software</a>
+<div id ="checkbox-container">
+<input type="checkbox" id="hidden">Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
+<input type="checkbox" id="firewall">Enable the firewall <a href="#network">Network Security</a>
+<input type="checkbox" id="antivirus">Enable/verify antivirus is running <a href="#gpo">Global Domain Policy</a>
+<input type="checkbox" id="eventlog">Enable/verify that Windows Event Log service is running (services.msc) <a href="#services">Services & Processes</a>
+<input type="checkbox" id="update">Enable/verify Windows Update service/Software Updates are running.  (START SYSTEM UPDATES) <a href="#software">System Updates &amp; Software</a>
 
-<input type="checkbox" id="forensics2">EVALUATE THE FORENSIC QUESTIONS
+<input type="checkbox" id="forensics">EVALUATE THE FORENSIC QUESTIONS
     Forensic question generally asks for a directory where an unauthorized file or user was found. Check FORENSICS before removing anything!
     DON'T get bogged down in the forensics, but be careful not to delete evidence!
 
-<input type="checkbox" id="evidence2"> SAVE EVIDENCE. If a file, immediately make a copy of the forensic file and place on the host system so we don't forget
+<input type="checkbox" id="evidence"> SAVE EVIDENCE. If a file, immediately make a copy of the forensic file and place on the host system so we don't forget
 
-<input type="checkbox" id="reconcile2">Reconcile authorized users (lusrmgr.msc)
-<input type="checkbox" id="users2">create a text file containing authorized users from the README
-<input type="checkbox" id="unauthorizedusers2"> Remove unauthorized users <a href="#lusrmgr">Local User Management</a>
-<input type="checkbox" id="missing2">Add any missing authorized users <a href="#lusrmgr">Local User Management</a>
-<input type="checkbox" id="admins2">Remove non-admins from admin group/set them to standard user <a href="#lusrmgr">Local User Management</a>
-<input type="checkbox" id="directories2">Remove unauthorized user directories c:\users or /home (BUT do your forensics first!) <a href="#filesystem">File System</a>
-<input type="checkbox" id="fileshare2">Look for unauthorized file shares (check the README and Forensics first) <a href="#filesystem">File System</a>
-<input type="checkbox" id="permissions2">Check file permissions (read your readme file!!!!) <a href="#filesystem">File System</a>
+<input type="checkbox" id="reconcile">Reconcile authorized users (lusrmgr.msc)
+<input type="checkbox" id="users">create a text file containing authorized users from the README
+<input type="checkbox" id="unauthorizedusers"> Remove unauthorized users <a href="#lusrmgr">Local User Management</a>
+<input type="checkbox" id="missing">Add any missing authorized users <a href="#lusrmgr">Local User Management</a>
+<input type="checkbox" id="admins">Remove non-admins from admin group/set them to standard user <a href="#lusrmgr">Local User Management</a>
+<input type="checkbox" id="directories">Remove unauthorized user directories c:\users or /home (BUT do your forensics first!) <a href="#filesystem">File System</a>
+<input type="checkbox" id="fileshare">Look for unauthorized file shares (check the README and Forensics first) <a href="#filesystem">File System</a>
+<input type="checkbox" id="permissions">Check file permissions (read your readme file!!!!) <a href="#filesystem">File System</a>
 
-<input type="checkbox" id="script2">Run CP_winscript.ps1 on Windows (PowerShell run as administrator)
+<input type="checkbox" id="script">Run CP_winscript.ps1 on Windows (PowerShell run as administrator)
+<a href = 'CP_winscript.ps1' download="CP_winscript.ps1">Download CP_winscript.ps1</a> <strong>RIGHT CLICK ON LINK AND PRESS SAVE LINK AS(IF NO DOWNLOAD</strong> 
+<a href = 'LGPO.exe' download="LGPO.exe">Download LGPO.exe</a> <strong> RIGHT CLICK ON LINK AND PRESS SAVE LINK AS (IF NO DOWNLOAD)</strong> 
+<a href = 'GptTmpl.inf' download="GptTmpl.inf">Download GptTmpl.inf</a> <strong>RIGHT CLICK ON LINK AND PRESS SAVE LINK AS(IF NO DOWNLOAD</strong> 
 
-<input type="checkbox" id="import2">Run the <strong>"lgpo.exe /s GptTmpl.inf"</strong> import 
-<a href="Scripts" download="LGPo.exe">Download</a>
-<input type="checkbox" id="gpo2">Group Policy <a href="#gpo">Global Domain Policy</a>
+<input type="checkbox" id="import">Run the <strong>"lgpo.exe /s GptTmpl.inf"</strong> import 
+
+<input type="checkbox" id="gpo">Group Policy <a href="#gpo">Global Domain Policy</a>
     
-<input type="checkbox" id="default2">Update the default browser as indicated in the README file (e.g. Firefox) <a href="#browser">Browser Settings</a>
-    <input type="checkbox" id="popup2"> Firefox pop-up blocker enabled
-    <input type="checkbox" id="firefoxupdates2">Firefox automatically installs updates
-<input type="checkbox" id="software update2">Update all required, valid software to latest version as defined in README
-<input type="checkbox" id="badprogram2"> Remove unsanctioned and unwanted programs. <a href="#software">System Updates &amp; Software</a>
+<input type="checkbox" id="default">Update the default browser as indicated in the README file (e.g. Firefox) <a href="#browser">Browser Settings</a>
+    <input type="checkbox" id="popup"> Firefox pop-up blocker enabled
+    <input type="checkbox" id="firefoxupdates">Firefox automatically installs updates
+<input type="checkbox" id="software update">Update all required, valid software to latest version as defined in README
+<input type="checkbox" id="badprogram"> Remove unsanctioned and unwanted programs. <a href="#software">System Updates &amp; Software</a>
 
-<input type="checkbox" id="badservice2">Stop and disable unauthorized services
+<input type="checkbox" id="badservice">Stop and disable unauthorized services
     o run netstat -ant and check for listening services.  
 	  Check your services file to see what ports map to what services
            Win: C:\Windows\System32\drivers\etc\services
 
-<input type="checkbox" id="badfiles2">Remove unauthorized files (mp3, m4b, .aa, .mkv, .m4r) (did you do forensics first?!)
-<input type="checkbox" id="hacking2">Remove hacking tools (nmap, rainbowcrack, ophcrack,*crack*, xhydra, wireshark, openvpn, betternetVPN, *sploit*) (did you do forensics first?!)
-<input type="checkbox" id="remote2"> Set remote access related settings (RDP, openSSH) defined in README
+<input type="checkbox" id="badfiles">Remove unauthorized files (mp3, m4b, .aa, .mkv, .m4r) (did you do forensics first?!)
+<input type="checkbox" id="hacking">Remove hacking tools (nmap, rainbowcrack, ophcrack,*crack*, xhydra, wireshark, openvpn, betternetVPN, *sploit*) (did you do forensics first?!)
+<input type="checkbox" id="remote"> Set remote access related settings (RDP, openSSH) defined in README
 </div>
 </pre>
 <a href="#toc">back to toc</a></br>
@@ -730,5 +733,5 @@ Install Microsoft Safety Scanner
   https://technet.microsoft.com/en-us/library/bb418944.aspx
 </pre>
 <a href="#toc">back to toc</a></br>
-    </body>
+</body>
 </html>
