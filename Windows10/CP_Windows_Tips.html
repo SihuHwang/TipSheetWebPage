@@ -701,16 +701,18 @@ Alternate Data Streams (ADS)
  more &lt; basicfile.txt
  more &lt; basicfile.txt:stuff
 
+  /r - displays alternate data streams of a file
+
   dir /r &lt;filename&gt;
   more &lt; &lt;filename&gt; 
+
+Mark-of-web
+  Can be seen on file properties via file explorer will show an unblock option if it was downloaded from web.
   local computer = 0
   local network = 1
   trusted =2
   internet = 3
   restricted = 4
-
-Mark-of-web
-  Can be seen on file properties via file explorer will show an unblock option if it was downloaded from web.
 
 Disable Distributed COM (DCOM)
    reg add hklm\software\microsoft\ole /v EnableDCOM /t REG_SZ /d N /f
