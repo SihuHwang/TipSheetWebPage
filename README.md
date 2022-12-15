@@ -3,5 +3,4 @@ Webpage for CP TipSheet/Checklist
 
 
 Need To Do: 
-Add Content to all subsections of the dropdown 
-Make the Drop down container centered
+A way to email/save the README, Forensics and scorecard. 
