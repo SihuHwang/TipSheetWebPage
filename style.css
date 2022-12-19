@@ -1,54 +1,227 @@
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  text-align: center;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    
+  }
   
-}
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  text-align: center;
+  }
   
-
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  text-align: center;
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center;
+    
+  }
   
-}
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  /*HEADER MENU*/
+.menubar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1EC719;
+}
+.menubar li {
+  float: left;
+}
+.menubar li a {
   display: block;
+  color: #000;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: black;
+}
+.menubar li a:hover {
+  background-color: #555;
+  color: white;
+}
+.dropdownheader button {display: none;}
+.menubar ul {display: block;}
 
+@media (max-width: 800px) {
+  .menubar ul{
+     display: none;
+   }
+  .dropdownheader button {display: block;}
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+/*HEADER FOOTER*/
+.foot {
+ position: absolute;
+ width: auto;
+ height: auto;
+ bottom: 0px;
+ left: 35%;
+}
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+/*TABLE IN squadron Members*/
+.leftside {
+  float: left;
+  width: 10%;
+}
+.middle {
+  float: left;
+  width: 90%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/*MENU FOR SQ members*/
+.sqmenubar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+.sqmenubar li {
+  float: left;
+}
+.sqmenubar li a {
+  display: block;
+  color: #37eb34;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+.sqmenubar li a:hover {
+  background-color: #555;
+  color: white;
+}
 
 
+@media only screen and (max-device-width: 480px) {
+  .leftside, .middle {
+    width: 100%
+  }
+}
+
+/*The following CSS is used to the control the table on teams.php*/
+#teams {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#teams {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+#teams td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#teams tr:nth-child(even){background-color: #f2f2f2;}
+
+#teams tr:hover {background-color: #ddd;}
+
+#teams th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: RED;
+  color: white;
+}
+/*END of TEAMS TABLE control*/
 
 
+/*used to properly place userid on header.php*/
+.userid {
+  float: right;
+  color: #37eb34;
+  background-color: black;
+}
+/*Controls the live countdown on header.php*/
+.countmedown {
+  display: inline-flex;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: black;
+  margin: 0px;
+}
+
+/*Wrapper is used on main.php for display in grid formation
+NEEDED:
+picture, picture img, news, picture1, picture1 img*/
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 10px;
+}
+
+.picture {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+}
+
+.picture img {
+  object-fit: cover;
+  width: 75%
+}
+
+.news {
+  grid-column: 2;
+  grid-row: 1;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.picture1 {
+  grid-column: 3;
+  grid-row: 1;
+  text-align: center;
+}
+.picture1 img {
+  object-fit: cover;
+  width: 75%
+}
+/*END of WRAPPER CSS used on main.php*/
