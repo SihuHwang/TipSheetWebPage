@@ -1,3 +1,7 @@
+<?php
+require "../../includes/header.php";
+?>
+
 <html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:w="urn:schemas-microsoft-com:office:word"
@@ -2955,7 +2959,7 @@ style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
  <p class=MsoTocHeading><o:p>&nbsp;</o:p><w:sdtPr></w:sdtPr></p>
  <p class=MsoToc1 style='tab-stops:right dotted 467.5pt'><!--[if supportFields]><span
  style='mso-element:field-begin'></span><span
- style='mso-spacerun:yes'> </span>TOC \o &quot;1-3&quot; \h \z \u <span
+ style='mso-spacerun:yes'>Â </span>TOC \o &quot;1-3&quot; \h \z \u <span
  style='mso-element:field-separator'></span><![endif]--><span
  class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121489049"><span
  style='mso-fareast-font-family:"Times New Roman"'>The Basics: All routers and
@@ -4209,16 +4213,16 @@ mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>!!!!!!!Choose
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal'><span style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>ip</span></span> <span class=SpellE>ssh</span> time-out 60<span
-style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal'><span style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";
 mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>ip</span></span> <span class=SpellE>ssh</span>
-authentication-retries 3<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+authentication-retries 3<span style='mso-spacerun:yes'>Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal'><span class=SpellE><span class=GramE><span style='font-size:12.0pt;
@@ -4405,8 +4409,8 @@ line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>·<span
-style='mso-spacerun:yes'>         </span>Assign IP addressing to R1 and S1
+line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Â·<span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>Assign IP addressing to R1 and S1
 based on the Addressing Table.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -4415,8 +4419,8 @@ line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>·<span
-style='mso-spacerun:yes'>         </span>Configure the default gateway on S1.<o:p></o:p></span></p>
+line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Â·<span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>Configure the default gateway on S1.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
@@ -4424,8 +4428,8 @@ line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>·<span
-style='mso-spacerun:yes'>         </span>Create, name, and assign VLANs on S1
+line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Â·<span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>Create, name, and assign VLANs on S1
 based on the VLAN and Port Assignments Table. Ports should be in access mode.
 Your VLAN names should match the names in the table exactly.<o:p></o:p></span></p>
 
@@ -4435,8 +4439,8 @@ line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>·<span
-style='mso-spacerun:yes'>         </span>Configure G0/1 of S1 as a static trunk
+line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Â·<span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>Configure G0/1 of S1 as a static trunk
 and assign the native VLAN.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -4445,8 +4449,8 @@ line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>·<span
-style='mso-spacerun:yes'>         </span>All ports that are not assigned to a
+line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Â·<span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>All ports that are not assigned to a
 VLAN should be disabled.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -4455,8 +4459,8 @@ line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>·<span
-style='mso-spacerun:yes'>         </span>Configure inter-VLAN routing on R1
+line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Â·<span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>Configure inter-VLAN routing on R1
 based on the Addressing Table.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -4465,8 +4469,8 @@ line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>·<span
-style='mso-spacerun:yes'>         </span>Verify connectivity. R1, S1, and all
+line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Â·<span
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>Verify connectivity. R1, S1, and all
 PCs should be able to ping each other and the server.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -4476,68 +4480,68 @@ line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Addressing
-Table<span style='mso-tab-count:4'>                                            </span><o:p></o:p></span></p>
+Table<span style='mso-tab-count:4'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Device<span
-style='mso-tab-count:1'> </span>Interface<span style='mso-tab-count:1'>         </span>IP
-Address<span style='mso-tab-count:1'>       </span>Subnet Mask<span
-style='mso-tab-count:2'>               </span>Default Gateway<o:p></o:p></span></p>
+style='mso-tab-count:1'> </span>Interface<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â  </span>IP
+Address<span style='mso-tab-count:1'>Â Â Â Â Â Â  </span>Subnet Mask<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Default Gateway<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>R1<span
-style='mso-tab-count:2'>                    </span>G0/0<span style='mso-tab-count:
-2'>                </span>172.17.25.2<span style='mso-tab-count:1'>     </span>255.255.255.252<span
-style='mso-tab-count:1'>         </span>N/A<o:p></o:p></span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>G0/0<span style='mso-tab-count:
+2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>172.17.25.2<span style='mso-tab-count:1'>Â Â Â Â  </span>255.255.255.252<span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â  </span>N/A<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>R1<span
-style='mso-tab-count:2'>                    </span>G0/1.10<span
-style='mso-tab-count:2'>                       </span>172.17.10.1<span
-style='mso-tab-count:1'>     </span>255.255.255.0<span style='mso-tab-count:
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>G0/1.10<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>172.17.10.1<span
+style='mso-tab-count:1'>Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
 1'> </span>N/A<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>R1<span
-style='mso-tab-count:2'>                    </span>G0/1.20<span
-style='mso-tab-count:2'>                       </span>172.17.20.1<span
-style='mso-tab-count:1'>     </span>255.255.255.0<span style='mso-tab-count:
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>G0/1.20<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>172.17.20.1<span
+style='mso-tab-count:1'>Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
 1'> </span>N/A<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>R1<span
-style='mso-tab-count:2'>                    </span>G0/1.30<span
-style='mso-tab-count:2'>                       </span>172.17.30.1<span
-style='mso-tab-count:1'>     </span>255.255.255.0<span style='mso-tab-count:
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>G0/1.30<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>172.17.30.1<span
+style='mso-tab-count:1'>Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
 1'> </span>N/A<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>R1<span
-style='mso-tab-count:2'>                    </span>G0/1.88<span
-style='mso-tab-count:2'>                       </span>172.17.88.1<span
-style='mso-tab-count:1'>     </span>255.255.255.0<span style='mso-tab-count:
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>G0/1.88<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>172.17.88.1<span
+style='mso-tab-count:1'>Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
 1'> </span>N/A<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>R1<span
-style='mso-tab-count:2'>                    </span>G0/1.99<span
-style='mso-tab-count:2'>                       </span>172.17.99.1<span
-style='mso-tab-count:1'>     </span>255.255.255.0<span style='mso-tab-count:
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>G0/1.99<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>172.17.99.1<span
+style='mso-tab-count:1'>Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
 1'> </span>N/A<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>S1<span
-style='mso-tab-count:2'>                    </span>VLAN 99<span
-style='mso-tab-count:2'>                      </span>172.17.99.10<span
-style='mso-tab-count:1'>   </span>255.255.255.0<span style='mso-tab-count:1'> </span>172.17.99.1<o:p></o:p></span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>VLAN 99<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>172.17.99.10<span
+style='mso-tab-count:1'>Â Â  </span>255.255.255.0<span style='mso-tab-count:1'> </span>172.17.99.1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
@@ -4546,25 +4550,25 @@ line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>PC1<span
-style='mso-tab-count:1'>      </span>NIC<span style='mso-tab-count:1'>      </span>172.17.10.21<span
-style='mso-tab-count:1'>   </span>255.255.255.0<span style='mso-tab-count:1'> </span>172.17.10.1<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â  </span>NIC<span style='mso-tab-count:1'>Â Â Â Â Â  </span>172.17.10.21<span
+style='mso-tab-count:1'>Â Â  </span>255.255.255.0<span style='mso-tab-count:1'> </span>172.17.10.1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>PC2<span
-style='mso-tab-count:1'>      </span>NIC<span style='mso-tab-count:1'>      </span>172.17.20.22<span
-style='mso-tab-count:1'>   </span>255.255.255.0<span style='mso-tab-count:1'> </span>172.17.20.1<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â  </span>NIC<span style='mso-tab-count:1'>Â Â Â Â Â  </span>172.17.20.22<span
+style='mso-tab-count:1'>Â Â  </span>255.255.255.0<span style='mso-tab-count:1'> </span>172.17.20.1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>PC3<span
-style='mso-tab-count:1'>      </span>NIC<span style='mso-tab-count:1'>      </span>172.17.30.23<span
-style='mso-tab-count:1'>   </span>255.255.255.0<span style='mso-tab-count:1'> </span>172.17.30.1<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â  </span>NIC<span style='mso-tab-count:1'>Â Â Â Â Â  </span>172.17.30.23<span
+style='mso-tab-count:1'>Â Â  </span>255.255.255.0<span style='mso-tab-count:1'> </span>172.17.30.1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Server<span
-style='mso-tab-count:1'>  </span>NIC<span style='mso-tab-count:1'>      </span>172.17.50.254<span
+style='mso-tab-count:1'>Â  </span>NIC<span style='mso-tab-count:1'>Â Â Â Â Â  </span>172.17.50.254<span
 style='mso-tab-count:1'> </span>255.255.255.0<span style='mso-tab-count:1'> </span>172.17.50.1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -4574,42 +4578,42 @@ line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>VLAN
-and Port Assignments Table<span style='mso-tab-count:2'>                 </span><o:p></o:p></span></p>
+and Port Assignments Table<span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>VLAN<span
-style='mso-tab-count:1'>   </span>Name<span style='mso-tab-count:3'>                          </span>Interface<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â  </span>Name<span style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Interface<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>10<span
-style='mso-tab-count:2'>                    </span>Faculty/Staff<span
-style='mso-tab-count:1'>    </span>F0/11-17<o:p></o:p></span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Faculty/Staff<span
+style='mso-tab-count:1'>Â Â Â  </span>F0/11-17<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>20<span
-style='mso-tab-count:2'>                    </span>Students<span
-style='mso-tab-count:2'>                      </span>F0/18-24<o:p></o:p></span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Students<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>F0/18-24<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>30<span
-style='mso-tab-count:2'>                    </span><span class=GramE>Guest(</span>Default)<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>Guest(</span>Default)<span
 style='mso-tab-count:1'> </span>F0/6-10<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>88<span
-style='mso-tab-count:2'>                    </span>Native<span
-style='mso-tab-count:3'>                          </span>G0/1<o:p></o:p></span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Native<span
+style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>G0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>99<span
-style='mso-tab-count:2'>                    </span>Management<span
-style='mso-tab-count:2'>              </span>VLAN 99<o:p></o:p></span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Management<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>VLAN 99<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
@@ -4627,174 +4631,174 @@ configuration &quot;script&quot; for VLAN's done from configuration prompt:<o:p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>conf</span></span> t<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> g0/1.1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>encap</span></span> dot1q 10<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>ip</span></span> address 172.17.10.1 255.255.255.0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> g0/1.20<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>encap</span></span> dot1q 20<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>ip</span></span> address 172.17.20.1 255.255.255.0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> g0/1.30<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>encap</span></span> dot1q 30<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>ip</span></span> address 172.17.30.1 255.255.255.0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> g0/1.88<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>encap</span></span> dot1q 88 native<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>ip</span></span> address 172.17.88.1 255.255.255.0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> g0/1.99<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>encap</span></span> dot1q 99<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>ip</span></span> address 172.17.99.1 255.255.255.0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> g0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>end</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>end</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>wr</span></span> mem<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -4809,101 +4813,101 @@ configuration &quot;script&quot; for VLAN's:<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>config</span></span> t<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>vlan</span></span> 10<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>name</span> Faculty/Staff<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>name</span> Faculty/Staff<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>vlan</span></span> 20<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>name</span>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>name</span>
 Students<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>vlan</span></span> 30<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>name</span>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>name</span>
 Guest(Default)<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>vlan</span></span> 88<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>name</span> Native<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>name</span> Native<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>vlan</span></span> 99<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>name</span>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>name</span>
 Management<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>end</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>end</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>wr</span></span> mem<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -4918,175 +4922,175 @@ ranges of ports for VLANS (shortcut-tip)<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> range f0/11-17<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>switchport</span></span> mode access<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>sw</span></span> access <span class=SpellE>vlan</span> 10<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> range f0/18-24<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>switchport</span></span> mode access<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>sw</span></span> access <span class=SpellE>vlan</span> 20<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> range f0/6-10<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>switchport</span></span> mode access<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>sw</span></span> access <span class=SpellE>vlan</span> 30<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> g0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>switchport</span></span> mode trunk<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>sw</span></span> trunk native <span class=SpellE>vlan</span> 88<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> <span class=SpellE>vlan</span> 99<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>switchport</span></span> mode access<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>sw</span></span> access <span class=SpellE>vlan</span> 99<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>no</span> shut<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> <span class=SpellE>vlan</span> 99<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>ip</span></span> address 172.17.99.10 255.255.255.0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>ip</span></span> default 172.17.99.1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>end</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>end</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>wr</span></span> mem<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -5096,39 +5100,39 @@ line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> range f0/1-5<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>shut</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>shut</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>exit</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>int</span></span> g0/2<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>shut</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>shut</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=GramE>end</span><o:p></o:p></span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>end</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
 line-height:105%;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
-style='mso-tab-count:1'>            </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>wr</span></span> mem<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
@@ -5141,63 +5145,63 @@ style='mso-bookmark:_Toc121489069'>) setting:</span><o:p></o:p></h2>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>            </span><span
+mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>S3(</span><span class=SpellE>config</span>)# <span class=SpellE>vlan</span>
 20<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>            </span><span
+mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>S3(</span><span class=SpellE>config-vlan</span>)# name student<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>            </span><span
+mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>S3(</span><span class=SpellE>config-vlan</span>)# <span
 class=SpellE>vlan</span> 150<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>            </span><span
+mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>S3(</span><span class=SpellE>config-vlan</span>)# name VOICE<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>            </span><span
+mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>S3(</span><span class=SpellE>config-vlan</span>)# exit<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>            </span><span
+mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>S3(</span><span class=SpellE>config</span>)# interface fa0/18<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>            </span><span
+mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>S3(</span><span class=SpellE>config</span>-if)# <span class=SpellE>switchport</span>
 mode access<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>            </span><span
+mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>S3(</span><span class=SpellE>config</span>-if)# <span class=SpellE>switchport</span>
 access <span class=SpellE>vlan</span> 20<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>            </span><span
+mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>S3(</span><span class=SpellE>config</span>-if)# <span class=SpellE>mls</span>
 <span class=SpellE>qos</span> trust cos<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>            </span><span
+mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>S3(</span><span class=SpellE>config</span>-if)# <span class=SpellE>switchport</span>
 voice <span class=SpellE>vlan</span> 150<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;mso-bidi-font-family:Calibri;
-mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>            </span><span
+mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>S3(</span><span class=SpellE>config</span>-if)# end<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
@@ -5358,19 +5362,19 @@ summary</b><o:p></o:p></span></p>
 margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
 Calibri;mso-bidi-theme-font:minor-latin'>Number of existing VLANs<span
-style='mso-spacerun:yes'>              </span>: 7<o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>: 7<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
 Calibri;mso-bidi-theme-font:minor-latin'>Number of existing VTP VLANs<span
-style='mso-spacerun:yes'>          </span>: 7<o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â  </span>: 7<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:1.0in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
 Calibri;mso-bidi-theme-font:minor-latin'>Number of existing extended VLANS<span
-style='mso-spacerun:yes'>     </span>: 0<o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â Â Â Â  </span>: 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><strong><span style='font-size:12.0pt;
@@ -5648,7 +5652,7 @@ Routing (Module 8, Chpt4)</span></a><span style='mso-fareast-font-family:"Times 
 style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span>! Create <span class=SpellE>vlans</span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>! Create <span class=SpellE>vlans</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
@@ -6420,19 +6424,19 @@ includes four types of addresses:</span></a><span style='font-size:12.0pt;
 line-height:105%'><o:p></o:p></span></h2>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Inside
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Inside
 local address<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Inside
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Inside
 global address<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Outside
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Outside
 local address<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Outside
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Outside
 global address<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
@@ -6444,27 +6448,27 @@ address is used, it is important to remember that NAT terminology is always
 applied from the perspective of the device with the translated address:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Inside
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Inside
 address - The address of the device which is being translated by NAT.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Outside
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Outside
 address - The address of the destination device.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>NAT also uses the concept of local or
 global with respect to addresses:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Local
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Local
 address - A local address is any address that appears on the inside portion of
 the network.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Global
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Global
 address - A global address is any address that appears on the outside portion
 of the network.<o:p></o:p></span></p>
 
@@ -6481,18 +6485,18 @@ style='font-size:12.0pt;line-height:105%'> <span class=SpellE>ip</span> <span
 class=SpellE>nat</span> ?<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'> 
-</span><span class=GramE>statistics</span><span style='mso-spacerun:yes'>   
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â 
+</span><span class=GramE>statistics</span><span style='mso-spacerun:yes'>Â Â Â 
 </span>Translation statistics<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'> 
-</span><span class=GramE>translations<span style='mso-spacerun:yes'> 
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â 
+</span><span class=GramE>translations<span style='mso-spacerun:yes'>Â 
 </span>Translation</span> entries<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'><span
-style='mso-spacerun:yes'> </span><b style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></p>
+style='mso-spacerun:yes'>Â </span><b style='mso-bidi-font-weight:normal'><o:p></o:p></b></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b
 style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;line-height:
@@ -6547,15 +6551,15 @@ style='font-size:12.0pt;line-height:105%'>Simple Example: Using NAT to Allow
 Internal Users Access to the Internet<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Overload
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Overload
 example: The pool contains addresses from 172.31.233.208 to 172.31.233.233 <o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Access
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Access
 list 1 allows packets with SA from 192.168.1.0 to 192.168.1.255. <o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>If
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>If
 no translation exists, packets matching access list 1 is translated to an
 address from the pool. The router allows multiple local addresses (192.168.1.0
 to 192.168.1.255) to use the same global address. The router retains port
@@ -6651,12 +6655,12 @@ style='font-size:12.0pt;line-height:105%'> <span class=SpellE>gigabitethernet</s
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-spacerun:yes'> </span><span class=SpellE><span
+line-height:105%'><span style='mso-spacerun:yes'>Â </span><span class=SpellE><span
 class=GramE>ip</span></span> address 192.168.201.1 255.255.255.240<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-spacerun:yes'> </span><span class=SpellE><span
+line-height:105%'><span style='mso-spacerun:yes'>Â </span><span class=SpellE><span
 class=GramE>ip</span></span> <span class=SpellE>nat</span> inside<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -6671,49 +6675,49 @@ style='font-size:12.0pt;line-height:105%'> <span class=SpellE>gigabitethernet</s
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-spacerun:yes'> </span><span class=SpellE><span
+line-height:105%'><span style='mso-spacerun:yes'>Â </span><span class=SpellE><span
 class=GramE>ip</span></span> address 192.168.201.29 255.255.255.240<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-spacerun:yes'> </span><span class=SpellE><span
+line-height:105%'><span style='mso-spacerun:yes'>Â </span><span class=SpellE><span
 class=GramE>ip</span></span> <span class=SpellE>nat</span> outside<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'><span
-style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;color:red'>CONFIGURE PAT TO INTERFACE
 OR POOL to USE SINGLE IP <span class=GramE>ADDRESS <span style='color:windowtext'><span
-style='mso-spacerun:yes'> </span>(</span></span></span><span style='font-size:
+style='mso-spacerun:yes'>Â </span>(</span></span></span><span style='font-size:
 12.0pt;line-height:105%'>note: will need to assign to interface with <span
 class=SpellE>ip</span> <span class=SpellE>nat</span> inside/outside as needed)<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> <span class=SpellE>nat</span> inside
 source list 1 interface serial 0/1/1 overload<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>access-list</span> 1 permit 192.168.0.0 0.0.255.255<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;color:red'>OR WITH A POOL<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> <span class=SpellE>nat</span>
 pool NAT-POOL2 209.165.200.226 209.165.200.240 <span class=SpellE>netmask</span>
 255.255.255.224<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>access-list</span> 1 permit 192.168.0.0 0.0.255.255<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> <span class=SpellE>nat</span>
 inside source list 1 pool NAT-POOL2 overload<o:p></o:p></span></p>
 
@@ -6741,7 +6745,7 @@ https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/iproute_ospf/configuration/xe-
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'><span
-style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>OSPF Troubleshooting:<o:p></o:p></span></p>
@@ -6758,7 +6762,7 @@ https://www.subnetonline.com/pages/subnet-calculators/ipv4-wildcard-calculator.p
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'><span
-style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'><o:p>&nbsp;</o:p></span></p>
@@ -6811,33 +6815,33 @@ messages to convey routing information using five types of packets. These
 packets, as shown in the figure, are as follows:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'>Type<span style='mso-tab-count:1'>    </span>Packet
-Name<span style='mso-tab-count:3'>                           </span>Description<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'>Type<span style='mso-tab-count:1'>Â Â Â  </span>Packet
+Name<span style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Description<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'>1<span style='mso-tab-count:1'>          </span>Hello<span
-style='mso-tab-count:4'>                                        </span>Discovers
+style='font-size:12.0pt;line-height:105%'>1<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â  </span>Hello<span
+style='mso-tab-count:4'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Discovers
 neighbors and builds adjacencies between them<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'>2<span style='mso-tab-count:1'>          </span>Database
-Description (DBD)<span style='mso-tab-count:1'>   </span>Checks for database
+style='font-size:12.0pt;line-height:105%'>2<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â  </span>Database
+Description (DBD)<span style='mso-tab-count:1'>Â Â  </span>Checks for database
 synchronization between routers<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'>3<span style='mso-tab-count:1'>          </span>Link-State
-Request (LSR)<span style='mso-tab-count:1'>         </span>Requests specific
+style='font-size:12.0pt;line-height:105%'>3<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â  </span>Link-State
+Request (LSR)<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â  </span>Requests specific
 link-state records from router to router<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'>4<span style='mso-tab-count:1'>          </span>Link-State
-Update (LSU)<span style='mso-tab-count:2'>                      </span>Sends
+style='font-size:12.0pt;line-height:105%'>4<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â  </span>Link-State
+Update (LSU)<span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Sends
 specifically requested link-state records<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'>5<span style='mso-tab-count:1'>          </span>Link-State
+style='font-size:12.0pt;line-height:105%'>5<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â  </span>Link-State
 <span class=SpellE><span class=GramE>Ack</span></span><span class=GramE>(</span><span
-class=SpellE>LSAck</span>)<span style='mso-tab-count:2'>              </span>Acknowledges
+class=SpellE>LSAck</span>)<span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Acknowledges
 the other packet types<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
@@ -6847,17 +6851,17 @@ style='font-size:12.0pt;line-height:105%'><o:p>&nbsp;</o:p></span></p>
 style='font-size:12.0pt;line-height:105%'>OSPF info stored in RAM:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>sh</span></span> <span class=SpellE>ip</span> <span
 class=SpellE>ospf</span> neighbor<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>sh</span></span> <span class=SpellE>ip</span> <span
 class=SpellE>ospf</span> database (note: this will show DR)<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>sh</span></span> <span class=SpellE>ip</span>
 route<o:p></o:p></span></p>
 
@@ -6865,70 +6869,70 @@ route<o:p></o:p></span></p>
 style='font-size:12.0pt;line-height:105%'>OSPF Operations<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Establish
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Establish
 Neighbor Adjacencies (hello)<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Exchange
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Exchange
 Link-State Advertisements (LSA)<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Build
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Build
 the Link State Database (LSDB)<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Execute
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Execute
 the SPF Algorithm<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Choose
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Choose
 the Best Route<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>OSPF design:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Single-Area
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Single-Area
 OSPF - All routers are in one area. Best practice is to use area 0.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE>Multiarea</span> OSPF - OSPF is implemented using multiple areas,
 in a hierarchical fashion. <o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>All
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>All
 areas must connect to the backbone area (area 0). <o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Routers
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Routers
 interconnecting the areas are referred to as Area Border Routers (ABRs).<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Smaller
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Smaller
 routing tables, reduce link overhead and OSPF calculation frequency<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>For
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>For
 any number of routers (designated as n) on a <span class=SpellE>multiaccess</span>
-network, there are n (n – 1) / 2 adjacencies.<o:p></o:p></span></p>
+network, there are n (n Â– 1) / 2 adjacencies.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>Highest
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Highest
 IP address on router is router-id or device id for <span class=SpellE>ospf</span>
 - this can also be set using router-id command in <span class=SpellE>ospf</span>
 configuration:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:3'>                                    </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>router</span> <span class=SpellE>ospf</span> 10<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:3'>                                    </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>router-id</span> 172.17.1.1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:3'>                                    </span><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>OSPF version Info: OSPFv3 is the
@@ -6937,20 +6941,20 @@ network address is referred to as the prefix and the subnet mask is called the
 prefix-length.<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>OSPF
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>OSPF
 components associated with the neighbor table - Adjacency database<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>OSPF
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>OSPF
 components responsible for computing the cost of each route - <span
 class=SpellE>Dijkstra's</span> algorithm<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>OSPF
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>OSPF
 components associated with the topology table - Forwarding database<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>OSPF
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>OSPF
 components associated with the routing table - Forwarding database<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
@@ -6966,81 +6970,81 @@ style='font-size:12.0pt;line-height:105%'>The following commands will help you
 find the information needed to answer the questions: <o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>show</span> <span class=SpellE>ip</span> interface brief<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>show</span> <span class=SpellE>ip</span> route<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>show</span> <span class=SpellE>ip</span> route <span class=SpellE>ospf</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>show</span> <span class=SpellE>ip</span> <span class=SpellE>ospf</span>
 neighbor<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:2'>                        </span>NOTE:
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>NOTE:
 ADJENCANCIES AND INTERFACES, IP AND STATE<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>show</span> <span class=SpellE>ip</span> protocols<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>show</span> <span class=SpellE>ip</span> <span class=SpellE>ospf</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:2'>                        </span>NOTE:
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>NOTE:
 NUMBER OF TIME SPF ALGORITHM EXECUTED, NUMBER OF INTERFACES AND LSA INFO<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>show</span> <span class=SpellE>ip</span> <span class=SpellE>ospf</span>
 interface<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>show</span> <span class=SpellE>ip</span> <span class=SpellE>ospf</span>
 database<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>Default Hello Timers<u>: The default
 values are 10 seconds for the hello time, and 40 seconds for the dead time. The
 usual rule of thumb with OSPF is to keep the dead time value four times the
-hello interval.</u><span style='mso-tab-count:1'>   </span><o:p></o:p></span></p>
+hello interval.</u><span style='mso-tab-count:1'>Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>config</span></span> t<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> Serial0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> <span class=SpellE>ospf</span>
 hello-interval 5<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> <span class=SpellE>ospf</span>
 dead-interval 20<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>exit</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;color:red'>THE WILDCARD MASK
@@ -7053,24 +7057,24 @@ TO THAT NETWORK WILL PARTICIPATE IN THE OSPFV2 ROUTING PROCESS.<o:p></o:p></span
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>            </span><span
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>router</span> <span class=SpellE>ospf</span> 10<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>            </span><span
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>network</span> 10.10.1<span style='color:red'>.0</span> 0.0.0.<span
 style='color:red'>255 </span>area 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>            </span><span
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>network</span> 10.1.1<span style='color:red'>.4</span> 0.0.0.<span
 style='color:red'>3</span> area 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:2'>                        </span><o:p></o:p></span></p>
+line-height:105%'><span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
@@ -7078,29 +7082,29 @@ line-height:105%'>Both interfaces would participate in OSPF routing<o:p></o:p></
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>            </span><span
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet0/0/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 10.10.1.1 255.255.255.0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span>!<o:p></o:p></span></p>
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>            </span><span
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 10.10.1.5 255.255.255.252<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -7132,24 +7136,24 @@ style='font-size:12.0pt;line-height:105%'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>            </span><span
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>router</span> <span class=SpellE>ospf</span> 10<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>            </span><span
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>network</span> 10.10.1.<span style='color:red'>1</span> 0.0.0.<span
 style='color:red'>0</span> area 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>            </span><span
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>network</span> 10.10.1.<span style='color:red'>5</span> 0.0.0<span
 style='color:red'>.0</span> area 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:2'>                        </span><o:p></o:p></span></p>
+line-height:105%'><span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
@@ -7170,28 +7174,28 @@ style='font-size:12.0pt;line-height:105%'>Codes: L - local, C - connected, S -
 static, R - RIP, M - mobile, B - BGP<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>      
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â Â Â Â Â Â 
 </span>D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>      
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â Â Â Â Â Â 
 </span>N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>      
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â Â Â Â Â Â 
 </span>E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>      
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â Â Â Â Â Â 
 </span><span class=SpellE>i</span> - IS-IS, L1 - IS-IS level-1, L2 - IS-IS
 level-2, <span class=SpellE><span class=GramE>ia</span></span> - IS-IS inter area<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>      
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â Â Â Â Â Â 
 </span>* - candidate default, U - per-user static route, o - ODR<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>      
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â Â Â Â Â Â 
 </span>P - <span class=GramE>periodic</span> downloaded static route<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
@@ -7204,118 +7208,118 @@ style='font-size:12.0pt;line-height:105%'>Gateway of last resort is not set<o:p>
 style='font-size:12.0pt;line-height:105%'>NOTES BELOW: <o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>NOTICE
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>NOTICE
 WHERE ROUTE IS LEARNED &quot;VIA 192.168.0.10, 1<span class=GramE>,OR</span>
 3&quot; OR DIRECTLY CONNECTED<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>    
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â Â Â Â 
 </span>10.0.0.0/8 is variably <span class=SpellE>subnetted</span>, 11 subnets,
 3 masks<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>10.10.0.0/30 [110/3] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>10.10.0.0/30 [110/3] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>10.10.0.4/30 [110/4] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>10.10.0.4/30 [110/4] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>10.10.0.8/30 [110/4] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>10.10.0.8/30 [110/4] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>10.10.0.12/30 [110/5] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>10.10.0.12/30 [110/5] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>10.10.0.16/30 [110/5] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>10.10.0.16/30 [110/5] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>10.10.0.20/30 [110/4] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>10.10.0.20/30 [110/4] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>10.20.0.1/32 [110/5] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>10.20.0.1/32 [110/5] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>10.20.1.1/32 [110/5] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>10.20.1.1/32 [110/5] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>10.20.2.1/32 [110/5] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>10.20.2.1/32 [110/5] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>10.20.3.1/32 [110/5] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>10.20.3.1/32 [110/5] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>10.20.4.0/24 [110/5] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>10.20.4.0/24 [110/5] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>    
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â Â Â Â 
 </span>172.17.0.0/30 is <span class=SpellE>subnetted</span>, 1 subnets<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>172.17.1.0/30 [110/2] via 192.168.0.10,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>172.17.1.0/30 [110/2] via 192.168.0.10,
 00:10:07, GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>    
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â Â Â Â 
 </span>192.168.0.0/24 is variably <span class=SpellE>subnetted</span>, 4
 subnets, 2 masks<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>C<span
-style='mso-spacerun:yes'>       </span>192.168.0.0/29 is directly connected,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>192.168.0.0/29 is directly connected,
 GigabitEthernet0/0/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>L<span
-style='mso-spacerun:yes'>       </span>192.168.0.4/32 is directly connected,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>192.168.0.4/32 is directly connected,
 GigabitEthernet0/0/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>C<span
-style='mso-spacerun:yes'>       </span>192.168.0.8/29 is directly connected,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>192.168.0.8/29 is directly connected,
 GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>L<span
-style='mso-spacerun:yes'>       </span>192.168.0.9/32 is directly connected,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>192.168.0.9/32 is directly connected,
 GigabitEthernet0/0/1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'>O<span style='mso-spacerun:yes'>   
+style='font-size:12.0pt;line-height:105%'>O<span style='mso-spacerun:yes'>Â Â Â 
 </span>192.168.1.0/24 [110/2] via 192.168.0.1, 00:10:07, GigabitEthernet0/0/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>    
+style='font-size:12.0pt;line-height:105%'><span style='mso-spacerun:yes'>Â Â Â Â 
 </span>192.168.3.0/32 is <span class=SpellE>subnetted</span>, 1 subnets<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>O<span
-style='mso-spacerun:yes'>       </span>192.168.3.1/32 [110/2] via 192.168.0.3, 00:10:07,
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>192.168.3.1/32 [110/2] via 192.168.0.3, 00:10:07,
 GigabitEthernet0/0/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
@@ -7344,99 +7348,99 @@ locations:<o:p></o:p></span></p>
 style='font-size:12.0pt;line-height:105%'>HQ router:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet0/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 172.17.1.1 255.255.255.252<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet1/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 192.168.0.10 255.255.255.248<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>router</span> <span class=SpellE>ospf</span> 1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>router-id</span> 172.17.1.1<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>router-id</span> 172.17.1.1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>log-adjacency-changes</span><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>log-adjacency-changes</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>network</span> 172.17.1.0
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>network</span> 172.17.1.0
 0.0.0.3 area 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>network</span> 192.168.0.8
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>network</span> 192.168.0.8
 0.0.0.7 area 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>Branch Router: <o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>interface</span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>interface</span>
 GigabitEthernet0/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 172.17.1.2 255.255.255.252<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet1/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 10.10.0.2 255.255.255.252<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>router</span> <span class=SpellE>ospf</span> 1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>router-id</span> 172.17.1.2<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>router-id</span> 172.17.1.2<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>log-adjacency-changes</span><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>log-adjacency-changes</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>network</span> 172.17.1.0
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>network</span> 172.17.1.0
 0.0.0.3 area 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>network</span> 10.10.0.0 0.0.0.3
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>network</span> 10.10.0.0 0.0.0.3
 area 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
@@ -7449,13 +7453,13 @@ line-height:105%;color:red'>NOTE: <o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%;color:red'><span style='mso-tab-count:1'>            </span>ONLY
+line-height:105%;color:red'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>ONLY
 CHANGE ON BORDER ROUTERS IS IN OSPF NETWORK STATEMENT WHICH NOW HAVE 2 AREA
 DEFINED FOR THEIR RESPECTIVE LOCATIONS<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span style='font-size:12.0pt;
-line-height:105%;color:red'><span style='mso-tab-count:1'>            </span>THE
+line-height:105%;color:red'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>THE
 ROUTERS WITHIN EACH AREA WOULD ALSO NEED TO BE CHANGED TO THIER RESPECTIVE
 AREAS<o:p></o:p></span></p>
 
@@ -7463,103 +7467,103 @@ AREAS<o:p></o:p></span></p>
 style='font-size:12.0pt;line-height:105%'>HQ Router:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet0/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> address 172.17.1.1
 255.255.255.252<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet1/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 192.168.0.10 255.255.255.248<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>router</span> <span class=SpellE>ospf</span> 1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>router-id</span> 172.17.1.1<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>router-id</span> 172.17.1.1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>log-adjacency-changes</span><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>log-adjacency-changes</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE><span style='color:red'>network</span></span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE><span style='color:red'>network</span></span><span
 style='color:red'> 192.168.0.8 0.0.0.7 area 1<o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;color:red'><span style='mso-tab-count:
-1'>            </span><span style='mso-spacerun:yes'> </span><span class=GramE>network</span>
+1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span style='mso-spacerun:yes'>Â </span><span class=GramE>network</span>
 172.17.1.0 0.0.0.3 area 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'>Branch router:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet0/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 172.17.1.2 255.255.255.252<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet1/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 10.10.0.2 255.255.255.252<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:2'>                        </span>!<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>router</span> <span class=SpellE>ospf</span> 1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>router-id</span> 172.17.1.2<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>router-id</span> 172.17.1.2<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>log-adjacency-changes</span><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>log-adjacency-changes</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='color:red'><span style='mso-spacerun:yes'> </span><span class=GramE>area</span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='color:red'><span style='mso-spacerun:yes'>Â </span><span class=GramE>area</span>
 51 range 10.0.0.0 255.0.0.0</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='color:red'><span style='mso-spacerun:yes'> </span><span class=GramE>network</span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='color:red'><span style='mso-spacerun:yes'>Â </span><span class=GramE>network</span>
 10.10.0.0 0.0.0.3 area 51<o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;color:red'><span style='mso-tab-count:
-1'>            </span><span style='mso-spacerun:yes'> </span><span class=GramE>network</span>
+1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span style='mso-spacerun:yes'>Â </span><span class=GramE>network</span>
 172.17.1.0 0.0.0.3 area 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
@@ -7570,57 +7574,57 @@ style='font-size:12.0pt;line-height:105%'>Advertising a specific local address
 - see below<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>interface</span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>interface</span>
 GigabitEthernet0/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 172.17.1.10 255.255.255.252<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet2/0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='color:red'><span style='mso-spacerun:yes'> </span><span class=SpellE><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='color:red'><span style='mso-spacerun:yes'>Â </span><span class=SpellE><span
 class=GramE>ip</span></span> address 192.168.32.1 255.255.255.252 (LOCAL
 NETWORK TO BE ADVERTISED)</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span>!<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>router</span> <span class=SpellE>ospf</span> 1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>router-id</span> 172.17.1.10<o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>router-id</span> 172.17.1.10<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>log-adjacency-changes</span><o:p></o:p></span></p>
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>log-adjacency-changes</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE><span style='color:red'>area</span></span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE><span style='color:red'>area</span></span><span
 style='color:red'> 2 range 192.168.32.0 255.255.224.0 (ADVERTISE SPECIFIC
 NETWORK)<o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>            </span><span
-style='mso-spacerun:yes'> </span><span class=GramE><span style='color:red'>network</span></span><span
+style='font-size:12.0pt;line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE><span style='color:red'>network</span></span><span
 style='color:red'> 192.168.32.0 0.0.0.3 area 2<o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;color:red'><span style='mso-tab-count:
-1'>            </span><span style='mso-spacerun:yes'> </span><span class=GramE>network</span>
+1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span style='mso-spacerun:yes'>Â </span><span class=GramE>network</span>
 172.17.1.8 0.0.0.3 area 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
@@ -7632,7 +7636,7 @@ style='font-size:12.0pt;line-height:105%'><o:p>&nbsp;</o:p></span></p>
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%;color:red'>Example for setting
 priority and hello &amp; dead intervals</span><span style='font-size:12.0pt;
-line-height:105%'><span style='mso-tab-count:1'>        </span> <o:p></o:p></span></p>
+line-height:105%'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â  </span> <o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 class=SpellE><span class=GramE><span style='font-size:12.0pt;line-height:105%'>int</span></span></span><span
@@ -7682,8 +7686,8 @@ style='font-size:12.0pt;line-height:105%'><o:p>&nbsp;</o:p></span></p>
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><i
 style='mso-bidi-font-style:normal'><u><span style='font-size:12.0pt;line-height:
 105%;color:black;mso-themecolor:text1'>Note: recommend changing reference below
-to all routers – the example below is adjusted for 1GB. This does NOT change
-bandwidth, it’s used for metric calculation<o:p></o:p></span></u></i></p>
+to all routers Â– the example below is adjusted for 1GB. This does NOT change
+bandwidth, itÂ’s used for metric calculation<o:p></o:p></span></u></i></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span class=GramE><span
@@ -7692,7 +7696,7 @@ style='font-size:12.0pt;line-height:105%'> reference-bandwidth 10<o:p></o:p></sp
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
 style='font-size:12.0pt;line-height:105%'><span
-style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â </span><o:p></o:p></span></p>
 
 <span style='font-size:16.0pt;line-height:105%;font-family:"Calibri Light",sans-serif;
 mso-ascii-theme-font:major-latin;mso-fareast-font-family:"Times New Roman";
@@ -7719,51 +7723,51 @@ margin-left:.5in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'>Limit network traffic to increase
-network performance<span style='mso-tab-count:1'>   </span></p>
+network performance<span style='mso-tab-count:1'>Â Â  </span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>A
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>A
 policy can be enforced using ACLs to block video traffic.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'>Provide traffic flow control<span
-style='mso-tab-count:1'>           </span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>A
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>A
 policy can be implemented using ACLs to restrict the delivery of routing
 updates to only those that come from a known source.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'>Provide a basic level of security for
-network access<span style='mso-tab-count:1'>           </span></p>
+network access<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>A
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>A
 policy can be enforced using ACLs to limit access to specified networks.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'>Filter traffic based on traffic type<span
-style='mso-tab-count:1'>              </span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>A
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>A
 policy can be implemented using ACLs to filter traffic by type.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'>Screen hosts to permit or deny access
-to network services<span style='mso-tab-count:1'>            </span></p>
+to network services<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>A
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>A
 policy can be implemented using ACLs to filter user access to services.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'>Provide priority to certain classes of
-network traffic<span style='mso-tab-count:1'>          </span></p>
+network traffic<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>Corporate
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Corporate
 traffic specifies that voice traffic be forwarded as fast as possible to avoid
 any interruption.</p>
 
@@ -7779,7 +7783,7 @@ Layer 3 using the source IPv4 address only.</p>
 margin-left:.5in;margin-bottom:.0001pt'>Extended ACLs - ACLs filter at Layer 3
 using the source and / or destination IPv4 address. They can also filter at
 Layer 4 using TCP, UDP ports, and optional protocol type information for finer
-control.<span style='mso-tab-count:1'>    </span>A policy can be implemented
+control.<span style='mso-tab-count:1'>Â Â Â  </span>A policy can be implemented
 using ACLs and <span class=SpellE>QoS</span> services to identify voice traffic
 and process it immediately.</p>
 
@@ -7799,19 +7803,19 @@ mask 0.0.0.15. Therefore, the ACE would be access-list 10 permit 192.168.3.32
 0.0.0.15:</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>Starting
-value<span style='mso-tab-count:3'>                                    </span>
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Starting
+value<span style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>
 255.255.255.255</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>Subtract
-the subnet mask<span style='mso-tab-count:1'>             </span>-255.255.255.240</p>
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Subtract
+the subnet mask<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â  </span>-255.255.255.240</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>Resulting
-wildcard mask<span style='mso-tab-count:2'>                                </span><span
-style='mso-spacerun:yes'>   </span>0.<span style='mso-spacerun:yes'> 
-</span>0.<span style='mso-spacerun:yes'>  </span>0. 15</p>
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Resulting
+wildcard mask<span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â Â  </span>0.<span style='mso-spacerun:yes'>Â 
+</span>0.<span style='mso-spacerun:yes'>Â  </span>0. 15</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
@@ -7820,17 +7824,17 @@ in the command output, two ACLs are configured. The ACL 10 ACE permits only the
 192.168.10.10 host and the ACL 11 ACE permits all hosts.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>)# access-list 10 permit 192.168.10.10<span
-style='mso-spacerun:yes'>  </span>0.0.0.0</p>
+style='mso-spacerun:yes'>Â  </span>0.0.0.0</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>)# access-list 11 permit<span
-style='mso-spacerun:yes'>  </span>0.0.0.0 255.255.255.255</p>
+style='mso-spacerun:yes'>Â  </span>0.0.0.0 255.255.255.255</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>)#</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>Alternatively,
@@ -7841,22 +7845,22 @@ output.</p>
 following commands accomplishes the same task as the previous commands.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>)# access-list 10 permit<span
-style='mso-spacerun:yes'>  </span>host<span style='mso-spacerun:yes'> 
+style='mso-spacerun:yes'>Â  </span>host<span style='mso-spacerun:yes'>Â 
 </span>192.168.10.10</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>)# access-list 11 permit<span
-style='mso-spacerun:yes'>  </span>any</p>
+style='mso-spacerun:yes'>Â  </span>any</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>)#</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><a
 name="_Toc121489083"><span class=Heading2Char><span style='font-size:13.0pt;
@@ -7867,52 +7871,52 @@ margin-left:.5in;margin-bottom:.0001pt'><span class=GramE>R1(</span><span
 class=SpellE>config</span>)#access-list ?</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
-</span>&lt;1-99&gt;<span style='mso-spacerun:yes'>       </span>IP standard
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
+</span>&lt;1-99&gt;<span style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>IP standard
 access list</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
-</span>&lt;100-199&gt;<span style='mso-spacerun:yes'>    </span>IP extended
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
+</span>&lt;100-199&gt;<span style='mso-spacerun:yes'>Â Â Â  </span>IP extended
 access list</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
-</span>&lt;1100-1199<span class=GramE>&gt;<span style='mso-spacerun:yes'> 
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
+</span>&lt;1100-1199<span class=GramE>&gt;<span style='mso-spacerun:yes'>Â 
 </span>Extended</span> 48-bit MAC address access list</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
-</span>&lt;1300-1999<span class=GramE>&gt;<span style='mso-spacerun:yes'> 
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
+</span>&lt;1300-1999<span class=GramE>&gt;<span style='mso-spacerun:yes'>Â 
 </span>IP</span> standard access list (expanded range)</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
-</span>&lt;200-299&gt;<span style='mso-spacerun:yes'>    </span>Protocol
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
+</span>&lt;200-299&gt;<span style='mso-spacerun:yes'>Â Â Â  </span>Protocol
 type-code access list</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
-</span>&lt;2000-2699<span class=GramE>&gt;<span style='mso-spacerun:yes'> 
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
+</span>&lt;2000-2699<span class=GramE>&gt;<span style='mso-spacerun:yes'>Â 
 </span>IP</span> extended access list (expanded range)</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
-</span>&lt;700-799&gt;<span style='mso-spacerun:yes'>    </span>48-bit MAC
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
+</span>&lt;700-799&gt;<span style='mso-spacerun:yes'>Â Â Â  </span>48-bit MAC
 address access list</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
-</span><span class=GramE>rate-limit</span><span style='mso-spacerun:yes'>  
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
+</span><span class=GramE>rate-limit</span><span style='mso-spacerun:yes'>Â Â 
 </span>Simple rate-limit specific access list</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
-</span><span class=GramE>template</span><span style='mso-spacerun:yes'>    
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
+</span><span class=GramE>template</span><span style='mso-spacerun:yes'>Â Â Â Â 
 </span>Enable IP template <span class=SpellE>acls</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
 </span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -7942,7 +7946,7 @@ style='color:red'>Rule of thumb for ACL placement:<o:p></o:p></span></p>
 <p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom:.0001pt;
 mso-add-space:auto;text-indent:-.25in;mso-list:l8 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]>Extended ACLs should be located as close as
 possible to the source of the traffic to be filtered. This way, undesirable
 traffic is denied close to the source network without crossing the network
@@ -7951,7 +7955,7 @@ infrastructure.</p>
 <p class=MsoListParagraphCxSpLast style='margin-bottom:0in;margin-bottom:.0001pt;
 mso-add-space:auto;text-indent:-.25in;mso-list:l8 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]>Standard ACLs should be located as close to the
 destination as possible. If a standard ACL was placed at the source of the
 traffic, the &quot;permit&quot; or &quot;deny&quot; will occur based on the
@@ -7962,14 +7966,14 @@ given source address no matter where the traffic is destined.</p>
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b
-style='mso-bidi-font-weight:normal'>Parameter<span style='mso-tab-count:5'>                                                                          </span>Description<o:p></o:p></b></p>
+style='mso-bidi-font-weight:normal'>Parameter<span style='mso-tab-count:5'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Description<o:p></o:p></b></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-class=GramE>access-list-number</span><span style='mso-tab-count:3'>                                          </span>This
+class=GramE>access-list-number</span><span style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>This
 is the decimal number of the ACL.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:6'>                                                                                                </span>Standard
+style='mso-tab-count:6'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Standard
 ACL number range is 1 to 99</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -7977,27 +7981,27 @@ margin-left:2.5in;margin-bottom:.0001pt;text-indent:.5in'>Extended is 100 -
 100.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-class=GramE>deny</span><span style='mso-tab-count:5'>                                                                      </span>This
+class=GramE>deny</span><span style='mso-tab-count:5'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>This
 denies access if the condition is matched.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-class=GramE>permit</span><span style='mso-tab-count:5'>                                                                  </span>This
+class=GramE>permit</span><span style='mso-tab-count:5'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>This
 permits access if the condition is matched.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-class=GramE>remark</span> text<span style='mso-tab-count:4'>                                                        </span>(Optional)
+class=GramE>remark</span> text<span style='mso-tab-count:4'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>(Optional)
 This adds a text entry for documentation purposes.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:6'>                                                                                                </span>Each
+style='mso-tab-count:6'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Each
 remark is limited to 100 characters.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-class=GramE>source</span><span style='mso-tab-count:5'>                                                                  </span>This
+class=GramE>source</span><span style='mso-tab-count:5'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>This
 identifies the source network or host address to filter.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:6'>                                                                                                </span>Use
+style='mso-tab-count:6'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Use
 the any keyword to specify all networks.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -8007,13 +8011,13 @@ host keyword) to identify a specific IP address.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:2.5in;margin-bottom:.0001pt;text-indent:-2.5in'><span class=GramE>source-wildcard</span><span
-style='mso-tab-count:2'>                                                                </span>(Optional)
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>(Optional)
 This is a 32-bit wildcard mask that is applied to the source. If omitted, a
 default 0.0.0.0 mask is assumed.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:2.5in;margin-bottom:.0001pt;text-indent:-2.5in'><span class=GramE>log</span><span
-style='mso-tab-count:2'>                                                                                          </span>(Optional)
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>(Optional)
 This keyword generates and sends an informational message whenever the ACE is
 matched.</p>
 
@@ -8022,11 +8026,11 @@ margin-left:2.5in;margin-bottom:.0001pt'>Message includes ACL number, matched
 condition (i.e., permitted or denied), source address, and number of packets.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:5'>                                                                                </span>This
+style='mso-tab-count:5'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>This
 message is generated for the first matched packet.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:5'>                                                                                </span>This
+style='mso-tab-count:5'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>This
 keyword should only be implemented for troubleshooting or security reasons.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
@@ -8034,7 +8038,7 @@ keyword should only be implemented for troubleshooting or security reasons.</p>
 <h2><a name="_Toc121489084">Numbered and Named ACL's:</a></h2>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span style='color:red'>Numbered
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span style='color:red'>Numbered
 ACL:</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -8077,7 +8081,7 @@ margin-left:1.0in;margin-bottom:.0001pt'><span class=SpellE><span class=GramE>ip
 access-group 10 out</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:2'>                                </span>OR</p>
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>OR</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:1.0in;margin-bottom:.0001pt'><span class=SpellE><span class=GramE>ip</span></span>
@@ -8089,53 +8093,53 @@ access-group PERMIT-ACCESS out</p>
 Security:</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>)# username ADMIN secret class</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>)# <span class=SpellE>ip</span> access-list standard
 ADMIN-HOST</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config-std-nacl</span>)# remark This ACL secures incoming <span
 class=SpellE>vty</span> lines</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config-std-nacl</span>)# permit 192.168.10.10</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config-std-nacl</span>)# deny any</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config-std-nacl</span>)# exit</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>)# line <span class=SpellE>vty</span> 0 4</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>-line)# login local</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>-line)# transport input <span class=SpellE>ssh</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>-line)# access-class ADMIN-HOST in</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>R1(</span><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>R1(</span><span
 class=SpellE>config</span>-line)# end</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><a
 name="_Toc121489085"><span class=Heading2Char><span style='font-size:13.0pt;
@@ -8161,98 +8165,98 @@ already configured, including IP addresses and Enhanced Interior Gateway
 Routing Protocol (EIGRP) routing.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>Addressing
-Table<span style='mso-tab-count:4'>                                                              </span></p>
+Table<span style='mso-tab-count:4'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>Device<span
-style='mso-tab-count:1'>  </span>Interface<span style='mso-tab-count:1'>             </span>IP
-Address<span style='mso-tab-count:2'>                          </span>Subnet
-Mask<span style='mso-tab-count:1'>      </span>Default Gateway</p>
+style='mso-tab-count:1'>Â  </span>Interface<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â  </span>IP
+Address<span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Subnet
+Mask<span style='mso-tab-count:1'>Â Â Â Â Â  </span>Default Gateway</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R1<span
-style='mso-tab-count:2'>                           </span>G0/0<span
-style='mso-tab-count:2'>                      </span>192.168.10.1<span
-style='mso-tab-count:1'>       </span>255.255.255.0<span style='mso-tab-count:
-1'>     </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>G0/0<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.10.1<span
+style='mso-tab-count:1'>Â Â Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
+1'>Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R1<span
-style='mso-tab-count:2'>                           </span>G0/1<span
-style='mso-tab-count:2'>                      </span>192.168.11.1<span
-style='mso-tab-count:1'>       </span>255.255.255.0<span style='mso-tab-count:
-1'>     </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>G0/1<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.11.1<span
+style='mso-tab-count:1'>Â Â Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
+1'>Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R1<span
-style='mso-tab-count:2'>                           </span>S0/0/0<span
-style='mso-tab-count:2'>                   </span>10.1.1.1<span
-style='mso-tab-count:2'>                                </span>255.255.255.252<span
-style='mso-tab-count:1'>                </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>S0/0/0<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>10.1.1.1<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>255.255.255.252<span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R1<span
-style='mso-tab-count:2'>                           </span>S0/0/1<span
-style='mso-tab-count:2'>                   </span>10.3.3.1<span
-style='mso-tab-count:2'>                                </span>255.255.255.252<span
-style='mso-tab-count:1'>                </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>S0/0/1<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>10.3.3.1<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>255.255.255.252<span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R2<span
-style='mso-tab-count:2'>                           </span>G0/0<span
-style='mso-tab-count:2'>                      </span>192.168.20.1<span
-style='mso-tab-count:1'>       </span>255.255.255.0<span style='mso-tab-count:
-1'>     </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>G0/0<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.20.1<span
+style='mso-tab-count:1'>Â Â Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
+1'>Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R2<span
-style='mso-tab-count:2'>                           </span>S0/0/0<span
-style='mso-tab-count:2'>                   </span>10.1.1.2<span
-style='mso-tab-count:2'>                                </span>255.255.255.252<span
-style='mso-tab-count:1'>                </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>S0/0/0<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>10.1.1.2<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>255.255.255.252<span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R2<span
-style='mso-tab-count:2'>                           </span>S0/0/1<span
-style='mso-tab-count:2'>                   </span>10.2.2.1<span
-style='mso-tab-count:2'>                                </span>255.255.255.252<span
-style='mso-tab-count:1'>                </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>S0/0/1<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>10.2.2.1<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>255.255.255.252<span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R3<span
-style='mso-tab-count:2'>                           </span>G0/0<span
-style='mso-tab-count:2'>                      </span>192.168.30.1<span
-style='mso-tab-count:1'>       </span>255.255.255.0<span style='mso-tab-count:
-1'>     </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>G0/0<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.30.1<span
+style='mso-tab-count:1'>Â Â Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
+1'>Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R3<span
-style='mso-tab-count:2'>                           </span>S0/0/0<span
-style='mso-tab-count:2'>                   </span>10.3.3.2<span
-style='mso-tab-count:2'>                                </span>255.255.255.252<span
-style='mso-tab-count:1'>                </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>S0/0/0<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>10.3.3.2<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>255.255.255.252<span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R3<span
-style='mso-tab-count:2'>                           </span>S0/0/1<span
-style='mso-tab-count:2'>                   </span>10.2.2.2<span
-style='mso-tab-count:2'>                                </span>255.255.255.252<span
-style='mso-tab-count:1'>                </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>S0/0/1<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>10.2.2.2<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>255.255.255.252<span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>PC1<span
-style='mso-tab-count:2'>                        </span>NIC<span
-style='mso-tab-count:3'>                                         </span>192.168.10.10<span
-style='mso-tab-count:1'>     </span>255.255.255.0<span style='mso-tab-count:
-1'>     </span>192.168.10.1</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>NIC<span
+style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.10.10<span
+style='mso-tab-count:1'>Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
+1'>Â Â Â Â  </span>192.168.10.1</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>PC2<span
-style='mso-tab-count:2'>                        </span>NIC<span
-style='mso-tab-count:3'>                                         </span>192.168.11.10<span
-style='mso-tab-count:1'>     </span>255.255.255.0<span style='mso-tab-count:
-1'>     </span>192.168.11.1</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>NIC<span
+style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.11.10<span
+style='mso-tab-count:1'>Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
+1'>Â Â Â Â  </span>192.168.11.1</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>PC3<span
-style='mso-tab-count:2'>                        </span>NIC<span
-style='mso-tab-count:3'>                                         </span>192.168.30.10<span
-style='mso-tab-count:1'>     </span>255.255.255.0<span style='mso-tab-count:
-1'>     </span>192.168.30.1</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>NIC<span
+style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.30.10<span
+style='mso-tab-count:1'>Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
+1'>Â Â Â Â  </span>192.168.30.1</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-class=SpellE>WebServer</span><span style='mso-tab-count:1'>         </span>NIC<span
-style='mso-tab-count:2'>                         </span>192.168.20.254<span
-style='mso-tab-count:1'>  </span>255.255.255.0<span style='mso-tab-count:1'>     </span>192.168.20.1</p>
+class=SpellE>WebServer</span><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â  </span>NIC<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.20.254<span
+style='mso-tab-count:1'>Â  </span>255.255.255.0<span style='mso-tab-count:1'>Â Â Â Â  </span>192.168.20.1</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
@@ -8264,114 +8268,114 @@ following network policies are implemented on R2:</p>
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'>        </span>The 192.168.11.0/24 network is not
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>The 192.168.11.0/24 network is not
 allowed access to the <span class=SpellE>WebServer</span> on the
 192.168.20.0/24 network.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'>         </span>All other access is permitted.</p>
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â  </span>All other access is permitted.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><u>Script for R2:<o:p></o:p></u></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><u>Script for R2:<o:p></o:p></u></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>access-list</span> 10 deny 192.168.11.0 0.0.0.255</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>access-list</span> 10 permit any</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>exit</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet0/0</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 192.168.20.1 255.255.255.0</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 access-group 10 out</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>end</span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>end</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>wr</span></span>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>wr</span></span>
 mem</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'> </span>The following network policies are implemented
+style='mso-spacerun:yes'>Â </span>The following network policies are implemented
 on R3:</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'>       </span>The 192.168.10.0/24 network is not
+style='mso-spacerun:yes'>Â Â Â Â Â Â  </span>The 192.168.10.0/24 network is not
 allowed to communicate with the 192.168.30.0/24 network.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'>        </span>All other access is permitted.</p>
+style='mso-spacerun:yes'>Â Â Â Â Â Â Â  </span>All other access is permitted.</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><u>Script for R3:<o:p></o:p></u></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><u>Script for R3:<o:p></o:p></u></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>access-list</span> 10 deny 192.168.10.0 0.0.0.255</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>access-list</span> 10 permit any</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>exit</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet0/0</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 address 192.168.30.1 255.255.255.0</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>ip</span></span>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>ip</span></span>
 access-group 10 out</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>exit</span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>exit</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>end</span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>end</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
-style='mso-spacerun:yes'> </span><span class=SpellE><span class=GramE>wr</span></span>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=SpellE><span class=GramE>wr</span></span>
 mem</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span><span
-style='mso-spacerun:yes'> </span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
+style='mso-spacerun:yes'>Â </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>Configure
 and apply a numbered standard ACL on R2. Create an ACL using the number 1 on R2
@@ -8379,7 +8383,7 @@ with a statement that denies access to the 192.168.20.0/24 network from the
 192.168.11.0/24 network. </p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span>*By default, an
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>*By default, an
 access list denies all traffic that does not match any rules. To permit all
 other traffic, configure the following statement:</p>
 
@@ -8389,65 +8393,65 @@ other traffic, configure the following statement:</p>
 margin-left:.5in;margin-bottom:.0001pt'><u>Script for R2: <o:p></o:p></u></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>access-list</span> 1 deny 192.168.11.0 0.0.0.255</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>access-list</span> 1 permit any</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>end</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span>Confirm access-list is correct:</p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Confirm access-list is correct:</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>show</span> access-lists</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span>Standard IP
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Standard IP
 access list 1</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span>10 deny
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>10 deny
 192.168.11.0 0.0.0.255</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span>20 permit any</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>20 permit any</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span>Apply ACL to outbound interface:</p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Apply ACL to outbound interface:</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>interface</span> GigabitEthernet0/0</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> access-group 1 out</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>end</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>wr</span></span> mem</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span></p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>Configure
 and apply a numbered standard ACL on R3.</p>
@@ -8459,39 +8463,39 @@ ACL using the number 1 on R3 with a statement that denies access to the
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span>Script for R3:</p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Script for R3:</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>access-list</span> 1 deny 192.168.10.0 0.0.0.255</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>access-list</span> 1 permit any</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>end</span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span>Verify ACL:</p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Verify ACL:</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span>R3# show access-lists</p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>R3# show access-lists</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span>Standard IP
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Standard IP
 access list 1</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span>10 deny
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>10 deny
 192.168.10.0 0.0.0.255</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:2'>                                </span>20 permit any</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>20 permit any</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
@@ -8502,18 +8506,18 @@ ACL by placing it for outbound traffic on the <span class=SpellE>GigabitEthernet
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>interface</span>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>interface</span>
 GigabitEthernet0/0</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=SpellE><span
-class=GramE>ip</span></span> access-group 1 out<span style='mso-tab-count:3'>                                     </span></p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
+class=GramE>ip</span></span> access-group 1 out<span style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=GramE>end</span> </p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=GramE>end</span> </p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-style='mso-tab-count:1'>                </span><span class=SpellE><span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span class=SpellE><span
 class=GramE>wr</span></span> mem</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
@@ -8523,64 +8527,64 @@ class=GramE>wr</span></span> mem</p>
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>Addressing
-Table<span style='mso-tab-count:4'>                                                              </span></p>
+Table<span style='mso-tab-count:4'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>Device<span
-style='mso-tab-count:1'>  </span>Interface<span style='mso-tab-count:1'>             </span>IP
-Address<span style='mso-tab-count:1'>          </span>Subnet Mask<span
-style='mso-tab-count:1'>      </span>Default Gateway</p>
+style='mso-tab-count:1'>Â  </span>Interface<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â  </span>IP
+Address<span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â  </span>Subnet Mask<span
+style='mso-tab-count:1'>Â Â Â Â Â  </span>Default Gateway</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R1<span
-style='mso-tab-count:2'>                           </span>F0/0<span
-style='mso-tab-count:2'>                       </span>192.168.100.1<span
-style='mso-tab-count:1'>     </span>255.255.255.0<span style='mso-tab-count:
-1'>     </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>F0/0<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.100.1<span
+style='mso-tab-count:1'>Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
+1'>Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R1<span
-style='mso-tab-count:2'>                           </span>F0/1<span
-style='mso-tab-count:2'>                       </span>192.168.200.1<span
-style='mso-tab-count:1'>     </span>255.255.255.0<span style='mso-tab-count:
-1'>     </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>F0/1<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.200.1<span
+style='mso-tab-count:1'>Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
+1'>Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R1<span
-style='mso-tab-count:2'>                           </span>E0/0/0<span
-style='mso-tab-count:2'>                   </span>192.168.10.1<span
-style='mso-tab-count:1'>       </span>255.255.255.0<span style='mso-tab-count:
-1'>     </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>E0/0/0<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.10.1<span
+style='mso-tab-count:1'>Â Â Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
+1'>Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>R1<span
-style='mso-tab-count:2'>                           </span>E0/1/0<span
-style='mso-tab-count:2'>                   </span>192.168.20.1<span
-style='mso-tab-count:1'>       </span>255.255.255.0<span style='mso-tab-count:
-1'>     </span>N/A</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>E0/1/0<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.20.1<span
+style='mso-tab-count:1'>Â Â Â Â Â Â  </span>255.255.255.0<span style='mso-tab-count:
+1'>Â Â Â Â  </span>N/A</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>File Server<span
-style='mso-tab-count:1'>           </span>NIC<span style='mso-tab-count:2'>                         </span>192.168.200.100<span
-style='mso-tab-count:1'>                </span>255.255.255.0<span
-style='mso-tab-count:1'>     </span>192.168.200.1</p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â  </span>NIC<span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.200.100<span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>255.255.255.0<span
+style='mso-tab-count:1'>Â Â Â Â  </span>192.168.200.1</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>Web Server<span
-style='mso-tab-count:1'>        </span>NIC<span style='mso-tab-count:2'>                         </span>192.168.100.100<span
-style='mso-tab-count:1'>                </span>255.255.255.0<span
-style='mso-tab-count:1'>     </span>192.168.100.1</p>
+style='mso-tab-count:1'>Â Â Â Â Â Â Â  </span>NIC<span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.100.100<span
+style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>255.255.255.0<span
+style='mso-tab-count:1'>Â Â Â Â  </span>192.168.100.1</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>PC0<span
-style='mso-tab-count:2'>                        </span>NIC<span
-style='mso-tab-count:2'>                         </span>192.168.20.3<span
-style='mso-tab-count:2'>                       </span>255.255.255.0<span
-style='mso-tab-count:1'>     </span>192.168.20.1</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>NIC<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.20.3<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>255.255.255.0<span
+style='mso-tab-count:1'>Â Â Â Â  </span>192.168.20.1</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>PC1<span
-style='mso-tab-count:2'>                        </span>NIC<span
-style='mso-tab-count:2'>                         </span>192.168.20.4<span
-style='mso-tab-count:2'>                       </span>255.255.255.0<span
-style='mso-tab-count:1'>     </span>192.168.20.1</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>NIC<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.20.4<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>255.255.255.0<span
+style='mso-tab-count:1'>Â Â Â Â  </span>192.168.20.1</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'>PC2<span
-style='mso-tab-count:2'>                        </span>NIC<span
-style='mso-tab-count:2'>                         </span>192.168.10.3<span
-style='mso-tab-count:2'>                       </span>255.255.255.0<span
-style='mso-tab-count:1'>     </span>192.168.10.1</p>
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>NIC<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>192.168.10.3<span
+style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>255.255.255.0<span
+style='mso-tab-count:1'>Â Â Â Â  </span>192.168.10.1</p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 
@@ -8627,24 +8631,24 @@ the following named ACL on R1.</p>
 margin-left:.5in;margin-bottom:.0001pt'>Script for R1:</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> access-list standard <span
 class=SpellE>File_Server_Restrictions</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>permit</span> host 192.168.20.4</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>permit</span> host 192.168.100.100</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>deny</span> any</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>exit</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -8658,19 +8662,19 @@ margin-left:.5in;margin-bottom:.0001pt'><span class=GramE>show</span>
 access-lists</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>Standard
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Standard
 IP access list <span class=SpellE>File_Server_Restrictions</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>10
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>10
 permit host 192.168.20.4</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>20
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>20
 permit host 192.168.100.100</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span>30
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>30
 deny any</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -8680,20 +8684,20 @@ margin-left:.5in;margin-bottom:.0001pt'><o:p>&nbsp;</o:p></p>
 margin-left:.5in;margin-bottom:.0001pt'>Apply the named ACL.</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>int</span></span> f0/1</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> access-group <span
 class=SpellE>File_Server_Restrictions</span> out</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=GramE>end</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>                </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>wr</span></span> mem</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -8789,23 +8793,23 @@ normal'>SH IP <span class=GramE>DHCP ?</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span
-style='mso-spacerun:yes'>  </span><span class=GramE>binding</span><span
-style='mso-spacerun:yes'>   </span>DHCP address bindings</p>
+style='mso-spacerun:yes'>Â  </span><span class=GramE>binding</span><span
+style='mso-spacerun:yes'>Â Â  </span>DHCP address bindings</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span
-style='mso-spacerun:yes'>  </span><span class=GramE>conflict<span
-style='mso-spacerun:yes'>  </span>DHCP</span> address conflicts</p>
+style='mso-spacerun:yes'>Â  </span><span class=GramE>conflict<span
+style='mso-spacerun:yes'>Â  </span>DHCP</span> address conflicts</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span
-style='mso-spacerun:yes'>  </span><span class=GramE>pool</span><span
-style='mso-spacerun:yes'>      </span>DHCP pools information</p>
+style='mso-spacerun:yes'>Â  </span><span class=GramE>pool</span><span
+style='mso-spacerun:yes'>Â Â Â Â Â  </span>DHCP pools information</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span
-style='mso-spacerun:yes'>  </span><span class=GramE>relay</span><span
-style='mso-spacerun:yes'>     </span>Miscellaneous DHCP relay information</p>
+style='mso-spacerun:yes'>Â  </span><span class=GramE>relay</span><span
+style='mso-spacerun:yes'>Â Â Â Â  </span>Miscellaneous DHCP relay information</p>
 
 <span style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:
 minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;
@@ -8893,7 +8897,7 @@ minor-latin'><o:p>&nbsp;</o:p></span></p>
 
 <p style='margin:0in;margin-bottom:.0001pt'><span style='font-family:"Calibri",sans-serif;
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'><span style='mso-tab-count:1'>            </span>Physical<o:p></o:p></span></p>
+minor-latin'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span>Physical<o:p></o:p></span></p>
 
 <p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;
 margin-bottom:.0001pt'><span style='font-family:"Calibri",sans-serif;
@@ -8961,10 +8965,10 @@ bold'>]<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span
 style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:
-bold'><span style='mso-tab-count:1'>                </span>e.g., privilege exec
+bold'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>e.g., privilege exec
 level </span><i><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
 minor-latin'>5</span></i><span style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:
-minor-latin;mso-bidi-font-weight:bold'> ping – user has access to level 1 and
+minor-latin;mso-bidi-font-weight:bold'> ping Â– user has access to level 1 and
 ping<o:p></o:p></span></p>
 
 <p style='margin:0in;margin-bottom:.0001pt'><span style='font-family:"Calibri",sans-serif;
@@ -9067,7 +9071,7 @@ a number of seconds the user must wait between unsuccessful login attempts.</p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span class=GramE><b>login</b></span><b>
 on-<span class=SpellE>successlog</span> (every login)</b> and <b>login
-on-failure (every login) - </b><span style='mso-spacerun:yes'> </span>commands
+on-failure (every login) - </b><span style='mso-spacerun:yes'>Â </span>commands
 log successful and unsuccessful login attempts.</p>
 
 <h2><o:p>&nbsp;</o:p></h2>
@@ -9092,7 +9096,7 @@ Calibri;mso-bidi-theme-font:minor-latin'>Manually Hardening the Router<o:p></o:p
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'>Feel like going “old school” with your
+Calibri;mso-bidi-theme-font:minor-latin'>Feel like going Â“old schoolÂ” with your
 perimeter router security? Well, here is what you can do for configurations
 manually on the device in order to help secure (harden) it:<o:p></o:p></span></p>
 
@@ -9104,80 +9108,80 @@ Calibri;mso-bidi-theme-font:minor-latin'><o:p>&nbsp;</o:p></span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'>Disable unused router interfaces—that’s
+Calibri;mso-bidi-theme-font:minor-latin'>Disable unused router interfacesÂ—thatÂ’s
 right, find ANY interface that is not in use and make sure you issue the
 shutdown command<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'>Disable unused services—these
+Calibri;mso-bidi-theme-font:minor-latin'>Disable unused servicesÂ—these
 typically include:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>BOOTP<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>BOOTP<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>CDP<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>CDP<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>Configuration
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>Configuration
 <span class=SpellE>autoloading</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>FTP<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>FTP<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>TFTP<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>TFTP<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>PAD<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>PAD<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>TCP
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>TCP
 and UDP minor services<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>DEC
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>DEC
 MOP<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
 Calibri;mso-bidi-theme-font:minor-latin'>Disable management protocols that you
-are not using—these typically include:<o:p></o:p></span></p>
+are not usingÂ—these typically include:<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>SNMP<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>SNMP<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>HTTP
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>HTTP
 or HTTPS<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>DNS<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>DNS<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
@@ -9188,13 +9192,13 @@ for re-directing your traffic:<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>ICMP
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>ICMP
 Redirects<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>IP
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>IP
 Source routing<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -9206,18 +9210,18 @@ for probes and scans in reconnaissance attacks:<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>Finger<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>Finger<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>ICMP
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>ICMP
 <span class=SpellE>unreachables</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>ICMP
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>ICMP
 mask reply<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -9229,31 +9233,31 @@ connections:<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>IP
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>IP
 identification service<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>TCP
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>TCP
 <span class=SpellE>keepalives</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>Disable
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>Disable
 gratuitous ARP and proxy ARP<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>Disable
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>Disable
 IP-directed broadcasts<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
@@ -9263,109 +9267,109 @@ Calibri;mso-bidi-theme-font:minor-latin'>The basics:<o:p></o:p></span></p>
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=GramE>crypto</span> key generate <span class=SpellE>rsa</span> modulus
 2048<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>!<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> <span class=SpellE>ssh</span>
-time-out 60<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+time-out 60<span style='mso-spacerun:yes'>Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> <span class=SpellE>ssh</span>
-authentication-retries 3<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+authentication-retries 3<span style='mso-spacerun:yes'>Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> <span class=SpellE>ssh</span>
 source-interface <span class=SpellE>GigabitEthernet</span> 0/1<span
-style='mso-spacerun:yes'>    </span><o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>!<span
-style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>!<span
+style='mso-spacerun:yes'>Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> <span class=SpellE>ssh</span>
 version 2<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>!<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=GramE>line</span> <span class=SpellE>vty</span> 0 4<span
-style='mso-spacerun:yes'>   </span><o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=GramE>transport</span> input <span class=SpellE>ssh</span><span
-style='mso-spacerun:yes'>    </span><o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â Â Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>!<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=GramE>line</span> aux 0<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>transport</span> input none<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>transport</span> input none<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>transport</span> output none<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>transport</span> output none<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>no</span> exec<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>no</span> exec<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>exec-timeout</span> 0 1<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>exec-timeout</span> 0 1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
-style='mso-spacerun:yes'> </span><span class=GramE>no</span> password<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
+style='mso-spacerun:yes'>Â </span><span class=GramE>no</span> password<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
@@ -9381,31 +9385,31 @@ caution on external (internet) <span class=SpellE>faceing</span> devices <o:p></
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=GramE>access-list</span> 98 permit 192.168.100.0 0.0.0.255<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=GramE>access-list</span> 99 permit 192.168.100.1<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span>!<o:p></o:p></span></p>
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span>!<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=SpellE><span class=GramE>snmp</span></span><span class=GramE>-server</span>
 community READONLY RO 98<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt'><span
 style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
-Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>   </span><span
+Calibri;mso-bidi-theme-font:minor-latin'><span style='mso-tab-count:1'>Â Â  </span><span
 class=SpellE><span class=GramE>snmp</span></span><span class=GramE>-server</span>
 community READWRITE RW 99<o:p></o:p></span></p>
 
@@ -9488,7 +9492,7 @@ minor-latin'>. Configure the IP domain name of the network using the<o:p></o:p><
 <p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.5in;
 margin-bottom:.0001pt;text-indent:.5in'><b><span style='font-family:"Calibri",sans-serif;
 mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:
-minor-latin'><span style='mso-spacerun:yes'> </span><span class=SpellE><span
+minor-latin'><span style='mso-spacerun:yes'>Â </span><span class=SpellE><span
 class=GramE>ip</span></span> domain-name </span></b><span class=SpellE><i><span
 style='font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;
 mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin'>domain-name</span></i></span><span
@@ -9710,7 +9714,7 @@ margin-left:1.25in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal;
 mso-list:l5 level1 lfo15;tab-stops:list 1.25in'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
-style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:12.0pt;mso-fareast-font-family:
 "Times New Roman";mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Configure
 a key chain name with the <b>key chain [name]</b> command.<o:p></o:p></span></p>
@@ -9720,7 +9724,7 @@ margin-left:1.25in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal;
 mso-list:l23 level1 lfo16;tab-stops:list 1.25in'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
-style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:12.0pt;mso-fareast-font-family:
 "Times New Roman";mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Assign
 the key chain a number and a password with the <b>key [key-id]</b> and <b>key-string
@@ -9731,7 +9735,7 @@ margin-left:1.25in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal;
 mso-list:l20 level1 lfo17;tab-stops:list 1.25in'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
-style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:12.0pt;mso-fareast-font-family:
 "Times New Roman";mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>Specify
 SHA authentication with the <b>cryptographic-algorithmhmac-sha-256</b> command.<o:p></o:p></span></p>
@@ -9741,7 +9745,7 @@ margin-left:1.25in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal;
 mso-list:l16 level1 lfo18;tab-stops:list 1.25in'><![if !supportLists]><span
 style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Symbol;
 mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
-style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:12.0pt;mso-fareast-font-family:
 "Times New Roman";mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'>(Optional)
 Specify when this key will expire with the <b>send-lifetime</b> <b
@@ -9902,41 +9906,41 @@ margin-left:.5in;margin-bottom:.0001pt'><span class=GramE>line</span> <span
 class=SpellE>vty</span> 0 4</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=GramE>password</span> &lt;if needed&gt;</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=GramE>login</span> authentication SSH-LOGIN</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=GramE>transport</span> input <span class=SpellE>ssh</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'> </span>!</p>
+style='mso-spacerun:yes'>Â </span>!</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'> </span>!!!!!!!Need domain and <span class=SpellE>cryto</span>
+style='mso-spacerun:yes'>Â </span>!!!!!!!Need domain and <span class=SpellE>cryto</span>
 key <span class=SpellE>tp</span> support SSH</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=SpellE><span class=GramE>ip</span></span> domain-name ccnasecurity.com</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'> </span>!</p>
+style='mso-spacerun:yes'>Â </span>!</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=GramE>crypto</span> key generate <span class=SpellE>rsa</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'> </span>!!!<span class=GramE>when</span> prompted put
+style='mso-spacerun:yes'>Â </span>!!!<span class=GramE>when</span> prompted put
 the key size, i.e. 1024, 2048..</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -9945,14 +9949,14 @@ class=GramE><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
 mso-fareast-font-family:"Times New Roman"'>ip</span></span></span><span
 style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
 "Times New Roman"'> <span class=SpellE>ssh</span> time-out 60<span
-style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+style='mso-spacerun:yes'>Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span
 style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
-"Times New Roman"'><span style='mso-tab-count:1'>            </span><span
+"Times New Roman"'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span><span
 class=SpellE><span class=GramE>ip</span></span> <span class=SpellE>ssh</span> authentication-retries
-3<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+3<span style='mso-spacerun:yes'>Â  </span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;line-height:normal'><span class=SpellE><span
@@ -9963,18 +9967,18 @@ style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'> </span>!</p>
+style='mso-spacerun:yes'>Â </span>!</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=GramE>line</span> con 0</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
 </span><span class=GramE>password</span> &lt;if needed&gt;</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=GramE>login</span> authentication default</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -10026,7 +10030,7 @@ margin-left:.5in;margin-bottom:.0001pt'><span class=GramE>line</span> <span
 class=SpellE>vty</span> 0 4</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> 
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â 
 </span><span class=GramE>login</span> authentication SSH-LOGIN</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -10034,20 +10038,20 @@ margin-left:.5in;margin-bottom:.0001pt'>!!!!!!!Need domain and <span
 class=SpellE>cryto</span> key <span class=SpellE>tp</span> support SSH</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=SpellE><span class=GramE>ip</span></span> domain-name ccnasecurity.com</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'> </span>!</p>
+style='mso-spacerun:yes'>Â </span>!</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=GramE>crypto</span> key generate <span class=SpellE>rsa</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'> </span>! <span class=GramE>when</span> prompted put
+style='mso-spacerun:yes'>Â </span>! <span class=GramE>when</span> prompted put
 the key size, i.e. 1024, 2048.. </p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -10061,7 +10065,7 @@ margin-left:.5in;margin-bottom:.0001pt'>! <span class=GramE>password</span>
 &lt;password if needed&gt;</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=GramE>login</span> authentication SSH-LOGIN</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -10113,29 +10117,29 @@ margin-left:.5in;margin-bottom:.0001pt'><span class=GramE>line</span> <span
 class=SpellE>vty</span> 0 4</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=GramE>login</span> authentication SSH-LOGIN</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'> </span>!!!!!!!Need domain and <span class=SpellE>cryto</span>
+style='mso-spacerun:yes'>Â </span>!!!!!!!Need domain and <span class=SpellE>cryto</span>
 key <span class=SpellE>tp</span> support SSH</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=SpellE><span class=GramE>ip</span></span> domain-name ccnasecurity.com</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'> </span>!</p>
+style='mso-spacerun:yes'>Â </span>!</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=GramE>crypto</span> key generate <span class=SpellE>rsa</span></p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt'><span
-style='mso-spacerun:yes'> </span>! <span class=GramE>when</span> prompted put
+style='mso-spacerun:yes'>Â </span>! <span class=GramE>when</span> prompted put
 the key size, i.e. 1024, 2048.. </p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
@@ -10148,7 +10152,7 @@ margin-left:.5in;margin-bottom:.0001pt'><span class=GramE>line</span> con 0</p>
 margin-left:.5in;margin-bottom:.0001pt'>!password &lt;password if needed&gt;</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
-margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'> </span><span
+margin-left:.5in;margin-bottom:.0001pt'><span style='mso-spacerun:yes'>Â </span><span
 class=GramE>login</span> authentication SSH-LOGIN</p>
 
 <span style='font-size:11.0pt;font-family:"Calibri",sans-serif;mso-ascii-theme-font:
@@ -10173,7 +10177,7 @@ style='mso-special-character:line-break'>
 <p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom:.0001pt;
 mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l0 level1 lfo19'><![if !supportLists]><span
 style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>Â·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
 mso-fareast-font-family:"Times New Roman"'>L3 Switch commands:<o:p></o:p></span></p>
@@ -10190,7 +10194,7 @@ routing is enabled<o:p></o:p></span></p>
 <p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
 .0001pt;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l0 level1 lfo19'><![if !supportLists]><span
 style='font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
-mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
+mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>Â·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
 mso-fareast-font-family:"Times New Roman"'>Changing a switch port to routable
