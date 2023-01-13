@@ -1,28 +1,26 @@
 <?php
-require "../../includes/header.php";
+require "../includes/header.php";
 ?>
 
-<!DOCTYPE html>
+
 <html>
 <head>
 <title>Windows Tip Sheet</title>
-<script src = "windows.js" defer></script>
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
 
-Last updated: Nov 2022
+Last updated: Jan 12 2023
 <h1>Cyberpatriot Windows Tip Sheet</h1>
 
 <h2 id="toc">Table of Contents</a></h2>
+
 <a href="#software">System Updates &amp; Software</a></br>
 <a href="#filesystem">File System</a></br>
-
 <a href="#secpol">Security Policy</a></br>
 <a href="#gpedit">Local Group Policy</a></br>
 <a href="#gpo">Global Domain Policy</a></br>
 <a href="#lusrmgr">Local User Management</a></br>
-<a href="#network">Network Secuity</a></br>
+<a href="#network">Network Security</a></br>
 <a href="#services">Services & Processes</a></br>
 <a href="#browser">Browser Settings</a></br>
 <a href="#logs">Log Files and Event Logs</a></br>
@@ -33,71 +31,71 @@ Last updated: Nov 2022
 
 <h2>Checklist</h2>
 <pre>
-<div id ="checkbox-container">
-<input type="checkbox" id="hidden">Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
-<input type="checkbox" id="firewall">Enable the firewall <a href="#network">Network Security</a>
-<input type="checkbox" id="antivirus">Enable/verify antivirus is running <a href="#gpo">Global Domain Policy</a>
-<input type="checkbox" id="eventlog">Enable/verify that Windows Event Log service is running (services.msc) <a href="#services">Services & Processes</a>
-<input type="checkbox" id="update">Enable/verify Windows Update service/Software Updates are running.  (START SYSTEM UPDATES) <a href="#software">System Updates &amp; Software</a>
+[ ] Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
+[ ] Enable the firewall <a href="#network">Network Security</a>
+[ ] Ensure antivirus is not turned off <a href="#gpedit">Local Group Policy</a>
+[ ] Ensure Windows Defender antivirus is running <a href="#services">Services & Processes</a>
+[ ] Enable/verify that Windows Event Log service is running (services.msc) <a href="#services">Services & Processes</a>
+[ ] Enable/verify Windows Update service/Software Updates are running.  (START SYSTEM UPDATES) <a href="#software">System Updates &amp; Software</a>
 
-<input type="checkbox" id="forensics">EVALUATE THE FORENSIC QUESTIONS
+[ ] EVALUATE THE FORENSIC QUESTIONS
     Forensic question generally asks for a directory where an unauthorized file or user was found. Check FORENSICS before removing anything!
     DON'T get bogged down in the forensics, but be careful not to delete evidence!
 
-<input type="checkbox" id="evidence"> SAVE EVIDENCE. If a file, immediately make a copy of the forensic file and place on the host system so we don't forget
+[ ] SAVE EVIDENCE. If a file, immediately make a copy of the forensic file and place on the host system so we don't forget
 
-<input type="checkbox" id="reconcile">Reconcile authorized users (lusrmgr.msc)
-<input type="checkbox" id="users">create a text file containing authorized users from the README
-<input type="checkbox" id="unauthorizedusers"> Remove unauthorized users <a href="#lusrmgr">Local User Management</a>
-<input type="checkbox" id="missing">Add any missing authorized users <a href="#lusrmgr">Local User Management</a>
-<input type="checkbox" id="admins">Remove non-admins from admin group/set them to standard user <a href="#lusrmgr">Local User Management</a>
-<input type="checkbox" id="directories">Remove unauthorized user directories c:\users or /home (BUT do your forensics first!) <a href="#filesystem">File System</a>
-<input type="checkbox" id="fileshare">Look for unauthorized file shares (check the README and Forensics first) <a href="#filesystem">File System</a>
-<input type="checkbox" id="permissions">Check file permissions (read your readme file!!!!) <a href="#filesystem">File System</a>
+    Note: if you are dealing with <strong>encryption/encoding/stegonography/hash</strong>, look in the related section in the <u>General Tips</u> sheet.
 
-<input type="checkbox" id="script">Run CP_winscript.ps1 on Windows (PowerShell run as administrator)
-<a href = 'CP_winscript.ps1' download="CP_winscript.ps1">Download CP_winscript.ps1</a> <strong>RIGHT CLICK ON LINK AND PRESS SAVE LINK AS(IF NO DOWNLOAD</strong> 
-<a href = 'LGPO.exe' download="LGPO.exe">Download LGPO.exe</a> <strong> RIGHT CLICK ON LINK AND PRESS SAVE LINK AS (IF NO DOWNLOAD)</strong> 
-<a href = 'GptTmpl.inf' download="GptTmpl.inf">Download GptTmpl.inf</a> <strong>RIGHT CLICK ON LINK AND PRESS SAVE LINK AS(IF NO DOWNLOAD</strong> 
+Reconcile authorized users (lusrmgr.msc)
+[ ] create a text file containing authorized users from the README
+[ ] Remove unauthorized users <a href="#lusrmgr">Local User Management</a>
+[ ] Add any missing authorized users <a href="#lusrmgr">Local User Management</a>
+[ ] Remove non-admins from admin group/set them to standard user <a href="#lusrmgr">Local User Management</a>
+[ ] Remove unauthorized user directories c:\users or /home (BUT do your forensics first!) <a href="#filesystem">File System</a>
+[ ] Look for unauthorized file shares (check the README and Forensics first) <a href="#filesystem">File System</a>
+[ ] Check file permissions (read your readme file!!!!) <a href="#filesystem">File System</a>
 
-<input type="checkbox" id="import">Run the <strong>"lgpo.exe /s GptTmpl.inf"</strong> import 
+[ ] Run CP_winscript.ps1 on Windows (PowerShell run as administrator)
 
-<input type="checkbox" id="gpo">Group Policy <a href="#gpo">Global Domain Policy</a>
+[ ] Run the <strong>"lgpo.exe /s GptTmpl.inf"</strong> import 
+
+[ ] Group Policy <a href="#gpo">Global Domain Policy</a>
     
-<input type="checkbox" id="default">Update the default browser as indicated in the README file (e.g. Firefox) <a href="#browser">Browser Settings</a>
-    <input type="checkbox" id="popup"> Firefox pop-up blocker enabled
-    <input type="checkbox" id="firefoxupdates">Firefox automatically installs updates
-<input type="checkbox" id="software update">Update all required, valid software to latest version as defined in README
-<input type="checkbox" id="badprogram"> Remove unsanctioned and unwanted programs. <a href="#software">System Updates &amp; Software</a>
+[ ] Update the default browser as indicated in the README file (e.g. Firefox) <a href="#browser">Browser Settings</a>
+    [ ] Firefox pop-up blocker enabled
+    [ ] Firefox automatically installs updates
+[ ] Update all required, valid software to latest version as defined in README
+[ ] Remove unsanctioned and unwanted programs. <a href="#software">System Updates &amp; Software</a>
 
-<input type="checkbox" id="badservice">Stop and disable unauthorized services
+[ ] Stop and disable unauthorized services
     o run netstat -ant and check for listening services.  
 	  Check your services file to see what ports map to what services
            Win: C:\Windows\System32\drivers\etc\services
 
-<input type="checkbox" id="badfiles">Remove unauthorized files (mp3, m4b, .aa, .mkv, .m4r) (did you do forensics first?!)
-<input type="checkbox" id="hacking">Remove hacking tools (nmap, rainbowcrack, ophcrack,*crack*, xhydra, wireshark, openvpn, betternetVPN, *sploit*) (did you do forensics first?!)
-<input type="checkbox" id="remote"> Set remote access related settings (RDP, openSSH) defined in README
-</div>
+[ ] Remove unauthorized files (mp3, m4b, .aa, .mkv, .m4r) (did you do forensics first?!)
+[ ] Remove hacking tools (nmap, rainbowcrack, ophcrack,*crack*, xhydra, wireshark, openvpn, betternetVPN, *sploit*) (did you do forensics first?!)
+[ ] Set remote access related settings (RDP, openSSH) defined in README
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="software">System Updates &amp; Software</h2>
 <pre>
 !!!!!!!!! <strong style="color:Tomato;">Start your updates early so they have time to finish</strong> !!!!!!!!!!!
 
-From taskbar, search for "update".  Set for automatic updates.
-  reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update" /v AUOptions /t REG_DWORD /d 4
+Windows Update Settings.  From taskbar, search for "update".  
+  Check for updates
+
+  <strong style="background-color:Yellow;">Note:</strong> During or following updates, restart if/when prompted.  If the system prompts to restart for updates to complete, you are safe to do so.
 
   * If Windows update won't run... 
-        Check that the Windows Update service is running.
-        Check that the Windows Event Log service is running.
-        Check that Background Intelligent Transfer Services (BITS) service running  
+        Check that the Windows Update service is running and/or not disabled.
+        Check that the Windows Event Log service is running and/or not disabled.
+        Check that Background Intelligent Transfer Services (BITS) service running and/or not disabled. 
     
-    Run Windows Update Troubleshooter
+    Or try to run Windows Update Troubleshooter
         From search bar, type Troubleshooter
         Click on Troubleshooting
         Click on Windows update troubleshooter
-        
+  
 Remove unauthorized software and programs
   From search bar, type "Programs"
   OR
@@ -106,7 +104,6 @@ Remove unauthorized software and programs
 Update any required software as listed in the README
 	Typically, you can open the software application and find under Help->About and get the current version.  Then Google for the software and check for the lastest version.
 
-During or following updates, restart if/when prompted.  If the system prompts to restart for updates to complete, you are safe to do so.
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="filesystem">File System</h2>
@@ -186,6 +183,18 @@ File attributes
     
 Look at the PowerShell history file for users
     C:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+	
+Alternate Data Streams (ADS)
+   echo "nothing to see here" &gt; basicfile.txt
+   echo "supersecret stuff" &gt; basicfile.txt:stuff
+   dir /r *.txt
+   more &lt; basicfile.txt
+   more &lt; basicfile.txt:stuff
+
+   /r - displays alternate data streams of a file
+
+   dir /r &lt;filename&gt;
+   more &lt; &lt;filename&gt; 
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="secpol">Security Policy Settings (secpol.msc)</h2>
@@ -449,15 +458,17 @@ Task Manager and click on Services tab
     Get-Service | where {$_.status -like "running"} | Sort-Object displayname
  
 Ensure required/authorized services and programs listed in the README are updated and running
-Check for these too...
+Check that these specifically are running...
   Windows Update
   Windows Defender *
  
+Ensure Windows Defender antivirus is running
+  From taskbar, search for "virus"
+  Make sure Realtime Protection is on
+
 Disable unauthorized services
-    Disable Simple TCP/IP service
-   
    Here is a list of services to look for and set startup type to disabled, and stop the service :
-   (ftp, web, telnet, samba, smbv1, Remote Registry, SSDP, SMTP, "net.tcp port sharing service",WinRM (Windows Remote Management))
+   (ftp, web, telnet, samba, smbv1, Remote Registry, SSDP, SMTP, "net.tcp port sharing service",WinRM (Windows Remote Management), "Simple TCP/IP")
  
 Look for startup programs
     Task Manager -&gt; StartUp
@@ -487,8 +498,8 @@ Create a whitelist of trusted processes (precompetition task)
 <a href="#toc">back to toc</a></br>
 <h2 id="browser">Browser Settings </h2>
 <pre>
-Check Firefox browser security settings
-  Set as default browser  
+Firefox browser General settings
+  Set as default browser
   Set to automatically installs updates
   Update to latest version ( may need to run a few times)
   
@@ -497,8 +508,8 @@ Privacy &amp; Security
   Warn you when websites try to install add-ons
   Block dangerous and deceptive content
 
-Check all other third party security policy settings
-  Extentions and plug-ins
+Check for unusual add-ons (about:addons)
+  Extentions and Plugins
   Settings -&gt; Extensions &amp; Themes
 
 </pre>
@@ -700,23 +711,13 @@ Enable AppLocker - gpedit.msc
 Autoruns to look for persistence
   autorunsc.exe -nobanner -accepteula -a * -m -c
 
-Alternate Data Streams (ADS)
- echo "nothing to see here" &gt; basicfile.txt
- echo "supersecret stuff" &gt; basicfile.txt:stuff
- dir /r *.txt
- more &lt; basicfile.txt
- more &lt; basicfile.txt:stuff
-
-  dir /r &lt;filename&gt;
-  more &lt; &lt;filename&gt; 
+Mark-of-web
+  Can be seen on file properties via file explorer will show an unblock option if it was downloaded from web.
   local computer = 0
   local network = 1
   trusted =2
   internet = 3
   restricted = 4
-
-Mark-of-web
-  Can be seen on file properties via file explorer will show an unblock option if it was downloaded from web.
 
 Disable Distributed COM (DCOM)
    reg add hklm\software\microsoft\ole /v EnableDCOM /t REG_SZ /d N /f
