@@ -4,7 +4,7 @@
 </head>
 <body>
 
-Last updated: Nov 2022
+Last updated: Jan 12 2023
 <h1>Cyberpatriot Windows Tip Sheet</h1>
 
 <h2 id="toc">Table of Contents</a></h2>
@@ -178,6 +178,18 @@ File attributes
     
 Look at the PowerShell history file for users
     C:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+	
+Alternate Data Streams (ADS)
+   echo "nothing to see here" &gt; basicfile.txt
+   echo "supersecret stuff" &gt; basicfile.txt:stuff
+   dir /r *.txt
+   more &lt; basicfile.txt
+   more &lt; basicfile.txt:stuff
+
+   /r - displays alternate data streams of a file
+
+   dir /r &lt;filename&gt;
+   more &lt; &lt;filename&gt; 
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="secpol">Security Policy Settings (secpol.msc)</h2>
@@ -693,18 +705,6 @@ Enable AppLocker - gpedit.msc
 
 Autoruns to look for persistence
   autorunsc.exe -nobanner -accepteula -a * -m -c
-
-Alternate Data Streams (ADS)
- echo "nothing to see here" &gt; basicfile.txt
- echo "supersecret stuff" &gt; basicfile.txt:stuff
- dir /r *.txt
- more &lt; basicfile.txt
- more &lt; basicfile.txt:stuff
-
-  /r - displays alternate data streams of a file
-
-  dir /r &lt;filename&gt;
-  more &lt; &lt;filename&gt; 
 
 Mark-of-web
   Can be seen on file properties via file explorer will show an unblock option if it was downloaded from web.
