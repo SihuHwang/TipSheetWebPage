@@ -162,11 +162,19 @@ File magic byte in the first part of the file to identify real file types.
     "GIF"           - GIF Image
     "%PDF"          - Portable Document Format
 
+Mark-of-web
+   Can be seen on file properties via file explorer will show an unblock option if it was downloaded from web.
+   local computer = 0
+   local network = 1
+   trusted =2
+   internet = 3
+   restricted = 4
+
 Folder &amp; File Permissions
-        If you find a folder with unauthorized files but can't get to it.
-        Right click folder and choose Properties -&gt; Security
-        Click Edit and add the Administrators group to the permissions.
-        You may need to click Advanced and next to Owner at the top, click "Change" to Take Ownership
+   If you find a folder with unauthorized files but can't get to it.
+   Right click folder and choose Properties -&gt; Security
+   Click Edit and add the Administrators group to the permissions.
+   You may need to click Advanced and next to Owner at the top, click "Change" to Take Ownership
 
 Check permissions on a folder or file from command-line
     icacls &lt;path to folder&gt; Example:icacls c:\temp
@@ -190,6 +198,17 @@ Alternate Data Streams (ADS)
 
    dir /r &lt;filename&gt;
    more &lt; &lt;filename&gt; 
+   
+   Sysinternals (Google search) has a utility called "streams.exe" that you can download and use to remove alternate data streams.
+   
+   C:\SysinternalsSuite>streams -d c:\Users\rdeshazer\basicfile.txt
+
+    streams v1.60 - Reveal NTFS alternate streams.
+    Copyright (C) 2005-2016 Mark Russinovich
+    Sysinternals - www.sysinternals.com
+    
+    c:\Users\rdeshazer\basicfile.txt:
+       Deleted :secret:$DATA
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="secpol">Security Policy Settings (secpol.msc)</h2>
@@ -292,7 +311,7 @@ Use AUDITPOL.EXE to clear audit policy
     https://social.technet.microsoft.com/Forums/windowsserver/en-US/03cb345e-baf1-45b7-97e1-b3b7a9ebe119/audit-policy-reset-on-restart
 </pre>
 <a href="#toc">back to toc</a></br>
-<h2 id="gpedit">Local Group Policy Settings (gpedit.msc)</h2>
+<h2 id="gpedit">Local Policy Settings (gpedit.msc)</h2>
 <pre>
 Computer Configuration (Refer to README first if it says remote management is needed)
     Administrative Templates
@@ -325,6 +344,7 @@ Computer Configuration (Refer to README first if it says remote management is ne
             Turn off Autoplay (Enabled)
             
 Also check Windows Defender reg key at HKLM\Software\policies\Microsoft\Windows Defender
+
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="gpo">Global Domain Policy</h2>
@@ -335,11 +355,13 @@ or get messages saying restricted "by your administrator",this may indicate an o
     CMD: gpresult /h %temp%\policy.htm
         View the report and look for Default Domain policy entries
     
-    MMC and load Group Policy Management snapin
+    MMC snap-in Group Policy Management Console (gpmc.msc)
     Default Domain policy
     Look for "Prevent windows applications" entry.
 
 Run rsop.msc (Resultant Set of Policy) and look for any policies set with a "Source GPO" other than local
+
+Order that policy applies:  Local, Site, Domain, Organizational Units (OU).  Higher level policies win (right most in this list).
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="lusrmgr">Local User Management (lusrmgr.msc) (netplwiz.exe)</h2>
@@ -669,7 +691,7 @@ Use these most common snap-ins.  Each can be launched from Start-&gt;Run or a co
   Firewall and Security.{4026492F-2F69-46B8-B9BF-5654FC07E423}
  </pre>
 <a href="#toc">back to toc</a></br>
-<h2 id="advanced">Advanced Tips - Not proven to give us points, but worth a try and training ideas</h2>
+<h2 id="advanced">Advanced Tips - Not proven to give us points, but worth looking at and training ideas</h2>
 <pre>
 TODO: review https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/security-options
 
@@ -705,14 +727,6 @@ Enable AppLocker - gpedit.msc
 
 Autoruns to look for persistence
   autorunsc.exe -nobanner -accepteula -a * -m -c
-
-Mark-of-web
-  Can be seen on file properties via file explorer will show an unblock option if it was downloaded from web.
-  local computer = 0
-  local network = 1
-  trusted =2
-  internet = 3
-  restricted = 4
 
 Disable Distributed COM (DCOM)
    reg add hklm\software\microsoft\ole /v EnableDCOM /t REG_SZ /d N /f
