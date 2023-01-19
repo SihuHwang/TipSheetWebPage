@@ -18,20 +18,37 @@ sudo usermod -L root
 sudo mkdir -p /home/$USER/Desktop/backups
 
 #sets /etc/hosts to default
-sudo cp /etc/hosts /home/$USER/Desktop/backups/hosts
+sudo cp /etc/hosts /home/$USER/Desktop/backups
 sudo printf > /etc/hosts
 echo -e "127.0.0.1 localhost\n127.0.1.1 $USER\n::1 ip6-localhost ip6-localhost ip6-loopback\nff02::1 ip6-allnodes\nff02::2 ip6-allrouters" >> /etc/hosts 
 sudo chmod 644 /etc/hosts 
 
 #makes /etc/passwd to correct permissions 
-sudo cp /etc/passwd /home/$USER/Desktop/backups/passwd
+sudo cp /etc/passwd /home/$USER/Desktop/backups
 sudo chown -R root:root /etc/passwd
-sudo chmod 604 /etc/passwd
+sudo chmod 644 /etc/passwd
+sudo auditctl -w /etc/paswd -p rwa
 
 #makes /etc/shadow to correct permissions 
-sudo cp /etc/shadow /home/$USER/Desktop/backups/shadow
+sudo cp /etc/shadow /home/$USER/Desktop/backups
 sudo chown -R root:root /etc/shadow
-sudo chmod 600 /etc/shadow
+sudo chmod 000 /etc/shadow
+
+#makes /etc/group to correct permissions 
+sudo cp /etc/group /home/$USER/Desktop/backups
+sudo chown -R root:root /etc/group
+sudo chmod 644 /etc/group
+sudo auditctl -w /etc/group -p rwa
+
+#makes /etc/gshadow to correct permissions 
+sudo cp /etc/gshadow /home/$USER/Desktop/backups
+sudo chown -R root:root /etc/gshadow 
+sudo chmod 000 /etc/gshadow 
+
+#makes /etc/fstab to correct permissions 
+sudo cp /etc/fstab /home/$USER/Desktop/backups
+sudo chown -R root:root /etc/fstab 
+sudo chmod 644 /etc/fstab
 
 #makes .bash_history to correct permissions 
 sudo cp .bash_history /home/$USER/Desktop/backups/bash_history 
@@ -84,7 +101,7 @@ sudo sysctl -p
 unalias -a 
 
 #users
-echo "Did you enter users from README as /home/$USER/Desktop/READMEusers.txt?(y/n)" 
+echo "Did you enter users from README as /home/$USER/Desktop/READMEusers?(y/n)" 
 read README
 
 
@@ -98,11 +115,27 @@ then
 
 fi
 
+
 echo "Finished? (y/n)" 
 read result 
 if [ $result = 'y' ]
  continue 
 fi 
+
+#chage properties
+awk -F: '($3 >= 1000 && $3 <= 60000) {printf $1"\n"}' /etc/passwd | sort > /home/$USER/Desktop/passwords
+filename=/home/$USER/Desktop/passwords
+n=1 
+while read line; do 
+if [ $line != $USER ]
+then 
+	 sudo chage -M 40 -m 5 -W 7 $line
+else 
+	continue
+fi
+n=$((n+1))
+
+
 
 #passwords
 awk -F: '($3 >= 1000 && $3 <= 60000) {printf $1"\n"}' /etc/passwd | sort > /home/$USER/Desktop/passwords
@@ -117,6 +150,8 @@ else
 fi
 n=$((n+1))
 done < $filename
+
+
 
 #misc. 
 echo "exit 0" > /etc/rc.local
