@@ -29,6 +29,7 @@ Last updated: Nov 2022
 
 <h2>Checklist</h2>
 
+<pre>
 
 <?php
 require "../../includes/config1_m.php";
@@ -60,9 +61,6 @@ if ($result->num_rows > 0) {
 });
 </script>
 
-
-
-<pre>
   <div id = "checkbox-container3">
 <input type="checkbox" id="hidden3">Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
 <input type="checkbox" id="firewall3"> Enable the UCF firewall <a href="#network">Network Security</a>

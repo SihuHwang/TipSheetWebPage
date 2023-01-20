@@ -33,7 +33,7 @@ Last updated: Nov 2022
 
 <h2>Checklist</h2>
 
-
+<pre>
 <?php
 require "../../includes/config1_m.php";
 $query = "SELECT * FROM comp_log WHERE team_id='". $_SESSION['team_id'] . "' AND os='windows-10' AND round_id=(SELECT round_id FROM rounds WHERE team_id='" . $_SESSION['team_id'] . "')";
@@ -66,7 +66,7 @@ if ($result->num_rows > 0) {
 
 
 
-<pre>
+
 <div id ="checkbox-container">
 <input type="checkbox" id="hidden">Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
 <input type="checkbox" id="firewall">Enable the firewall <a href="#network">Network Security</a>
