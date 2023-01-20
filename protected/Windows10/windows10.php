@@ -33,38 +33,6 @@ Last updated: Nov 2022
 
 <h2>Checklist</h2>
 <pre>
-
-<?php
-require "../../includes/config1_m.php";
-$query = "SELECT * FROM comp_log WHERE team_id='". $_SESSION['team_id'] . "' AND os='windows-10' AND round_id=(SELECT round_id FROM rounds WHERE team_id='" . $_SESSION['team_id'] . "')";
-$result = $conn1->query($query);
-if ($result->num_rows > 0) {
-  while($row = $result->fetch_assoc()) {
-    if ($row['checked'] == "1") {
-     echo "<br><input type='checkbox' class='thecheckbox' id='" . $row["id"] . "' checked/>"  . $row["item"] . "<br/>"; 
-    } else {echo "<br><input type='checkbox' class='thecheckbox' id='" . $row["id"] . "'/>"  . $row["item"] . "<br/>";}
-  }
-}
-?>
-
-<script type="text/javascript">
-  $('.thecheckbox').change(function(e){
-    // Get row id or whatever you need to relate it to info in the DB
-    rowid = $(e.target).attr('id');
-    isChecked = $(e.target).is(':checked');
-    data = {id: rowid, active: isChecked, os: 'windows-10'};
-    
-    $.ajax({
-        url: '../../includes/update_db.php',
-        method: 'POST',
-        dataType: 'json',
-        data: data
-    });
-    
-});
-</script>
-
-
 <div id ="checkbox-container">
 <input type="checkbox" id="hidden">Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
 <input type="checkbox" id="firewall">Enable the firewall <a href="#network">Network Security</a>
@@ -104,7 +72,7 @@ if ($result->num_rows > 0) {
 
 <input type="checkbox" id="badservice">Stop and disable unauthorized services
     o run netstat -ant and check for listening services.  
-	  Check your services file to see what ports map to what services
+    Check your services file to see what ports map to what services
            Win: C:\Windows\System32\drivers\etc\services
 
 <input type="checkbox" id="badfiles">Remove unauthorized files (mp3, m4b, .aa, .mkv, .m4r) (did you do forensics first?!)
@@ -117,28 +85,29 @@ if ($result->num_rows > 0) {
 <pre>
 !!!!!!!!! <strong style="color:Tomato;">Start your updates early so they have time to finish</strong> !!!!!!!!!!!
 
-From taskbar, search for "update".  Set for automatic updates.
-  reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update" /v AUOptions /t REG_DWORD /d 4
+Windows Update Settings.  From taskbar, search for "update".  
+  Check for updates
+
+  <strong style="background-color:Yellow;">Note:</strong> During or following updates, restart if/when prompted.  If the system prompts to restart for updates to complete, you are safe to do so.
 
   * If Windows update won't run... 
-        Check that the Windows Update service is running.
-        Check that the Windows Event Log service is running.
-        Check that Background Intelligent Transfer Services (BITS) service running  
+        Check that the Windows Update service is running and/or not disabled.
+        Check that the Windows Event Log service is running and/or not disabled.
+        Check that Background Intelligent Transfer Services (BITS) service running and/or not disabled. 
     
-    Run Windows Update Troubleshooter
+    Or try to run Windows Update Troubleshooter
         From search bar, type Troubleshooter
         Click on Troubleshooting
         Click on Windows update troubleshooter
-        
+  
 Remove unauthorized software and programs
   From search bar, type "Programs"
   OR
   Control Panel\Programs\Programs and Features
 
 Update any required software as listed in the README
-	Typically, you can open the software application and find under Help->About and get the current version.  Then Google for the software and check for the lastest version.
+  Typically, you can open the software application and find under Help->About and get the current version.  Then Google for the software and check for the lastest version.
 
-During or following updates, restart if/when prompted.  If the system prompts to restart for updates to complete, you are safe to do so.
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="filesystem">File System</h2>
@@ -202,11 +171,19 @@ File magic byte in the first part of the file to identify real file types.
     "GIF"           - GIF Image
     "%PDF"          - Portable Document Format
 
+Mark-of-web
+   Can be seen on file properties via file explorer will show an unblock option if it was downloaded from web.
+   local computer = 0
+   local network = 1
+   trusted =2
+   internet = 3
+   restricted = 4
+
 Folder &amp; File Permissions
-        If you find a folder with unauthorized files but can't get to it.
-        Right click folder and choose Properties -&gt; Security
-        Click Edit and add the Administrators group to the permissions.
-        You may need to click Advanced and next to Owner at the top, click "Change" to Take Ownership
+   If you find a folder with unauthorized files but can't get to it.
+   Right click folder and choose Properties -&gt; Security
+   Click Edit and add the Administrators group to the permissions.
+   You may need to click Advanced and next to Owner at the top, click "Change" to Take Ownership
 
 Check permissions on a folder or file from command-line
     icacls &lt;path to folder&gt; Example:icacls c:\temp
@@ -218,6 +195,29 @@ File attributes
     
 Look at the PowerShell history file for users
     C:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+  
+Alternate Data Streams (ADS)
+   echo "nothing to see here" &gt; basicfile.txt
+   echo "supersecret stuff" &gt; basicfile.txt:stuff
+   dir /r *.txt
+   more &lt; basicfile.txt
+   more &lt; basicfile.txt:stuff
+
+   /r - displays alternate data streams of a file
+
+   dir /r &lt;filename&gt;
+   more &lt; &lt;filename&gt; 
+   
+   Sysinternals (Google search) has a utility called "streams.exe" that you can download and use to remove alternate data streams.
+   
+   C:\SysinternalsSuite>streams -d c:\Users\rdeshazer\basicfile.txt
+
+    streams v1.60 - Reveal NTFS alternate streams.
+    Copyright (C) 2005-2016 Mark Russinovich
+    Sysinternals - www.sysinternals.com
+    
+    c:\Users\rdeshazer\basicfile.txt:
+       Deleted :secret:$DATA
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="secpol">Security Policy Settings (secpol.msc)</h2>
@@ -320,7 +320,7 @@ Use AUDITPOL.EXE to clear audit policy
     https://social.technet.microsoft.com/Forums/windowsserver/en-US/03cb345e-baf1-45b7-97e1-b3b7a9ebe119/audit-policy-reset-on-restart
 </pre>
 <a href="#toc">back to toc</a></br>
-<h2 id="gpedit">Local Group Policy Settings (gpedit.msc)</h2>
+<h2 id="gpedit">Local Policy Settings (gpedit.msc)</h2>
 <pre>
 Computer Configuration (Refer to README first if it says remote management is needed)
     Administrative Templates
@@ -353,6 +353,7 @@ Computer Configuration (Refer to README first if it says remote management is ne
             Turn off Autoplay (Enabled)
             
 Also check Windows Defender reg key at HKLM\Software\policies\Microsoft\Windows Defender
+
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="gpo">Global Domain Policy</h2>
@@ -363,11 +364,13 @@ or get messages saying restricted "by your administrator",this may indicate an o
     CMD: gpresult /h %temp%\policy.htm
         View the report and look for Default Domain policy entries
     
-    MMC and load Group Policy Management snapin
+    MMC snap-in Group Policy Management Console (gpmc.msc)
     Default Domain policy
     Look for "Prevent windows applications" entry.
 
 Run rsop.msc (Resultant Set of Policy) and look for any policies set with a "Source GPO" other than local
+
+Order that policy applies:  Local, Site, Domain, Organizational Units (OU).  Higher level policies win (right most in this list).
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="lusrmgr">Local User Management (lusrmgr.msc) (netplwiz.exe)</h2>
@@ -481,15 +484,17 @@ Task Manager and click on Services tab
     Get-Service | where {$_.status -like "running"} | Sort-Object displayname
  
 Ensure required/authorized services and programs listed in the README are updated and running
-Check for these too...
+Check that these specifically are running...
   Windows Update
   Windows Defender *
  
+Ensure Windows Defender antivirus is running
+  From taskbar, search for "virus"
+  Make sure Realtime Protection is on
+
 Disable unauthorized services
-    Disable Simple TCP/IP service
-   
    Here is a list of services to look for and set startup type to disabled, and stop the service :
-   (ftp, web, telnet, samba, smbv1, Remote Registry, SSDP, SMTP, "net.tcp port sharing service",WinRM (Windows Remote Management))
+   (ftp, web, telnet, samba, smbv1, Remote Registry, SSDP, SMTP, "net.tcp port sharing service",WinRM (Windows Remote Management), "Simple TCP/IP")
  
 Look for startup programs
     Task Manager -&gt; StartUp
@@ -519,8 +524,8 @@ Create a whitelist of trusted processes (precompetition task)
 <a href="#toc">back to toc</a></br>
 <h2 id="browser">Browser Settings </h2>
 <pre>
-Check Firefox browser security settings
-  Set as default browser  
+Firefox browser General settings
+  Set as default browser
   Set to automatically installs updates
   Update to latest version ( may need to run a few times)
   
@@ -529,8 +534,8 @@ Privacy &amp; Security
   Warn you when websites try to install add-ons
   Block dangerous and deceptive content
 
-Check all other third party security policy settings
-  Extentions and plug-ins
+Check for unusual add-ons (about:addons)
+  Extentions and Plugins
   Settings -&gt; Extensions &amp; Themes
 
 </pre>
@@ -695,7 +700,7 @@ Use these most common snap-ins.  Each can be launched from Start-&gt;Run or a co
   Firewall and Security.{4026492F-2F69-46B8-B9BF-5654FC07E423}
  </pre>
 <a href="#toc">back to toc</a></br>
-<h2 id="advanced">Advanced Tips - Not proven to give us points, but worth a try and training ideas</h2>
+<h2 id="advanced">Advanced Tips - Not proven to give us points, but worth looking at and training ideas</h2>
 <pre>
 TODO: review https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/security-options
 
@@ -731,24 +736,6 @@ Enable AppLocker - gpedit.msc
 
 Autoruns to look for persistence
   autorunsc.exe -nobanner -accepteula -a * -m -c
-
-Alternate Data Streams (ADS)
- echo "nothing to see here" &gt; basicfile.txt
- echo "supersecret stuff" &gt; basicfile.txt:stuff
- dir /r *.txt
- more &lt; basicfile.txt
- more &lt; basicfile.txt:stuff
-
-  dir /r &lt;filename&gt;
-  more &lt; &lt;filename&gt; 
-  local computer = 0
-  local network = 1
-  trusted =2
-  internet = 3
-  restricted = 4
-
-Mark-of-web
-  Can be seen on file properties via file explorer will show an unblock option if it was downloaded from web.
 
 Disable Distributed COM (DCOM)
    reg add hklm\software\microsoft\ole /v EnableDCOM /t REG_SZ /d N /f
