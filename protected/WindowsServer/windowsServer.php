@@ -36,7 +36,7 @@ Last updated: Nov 2022
 
 <?php
 require "../../includes/config1_m.php";
-$query = "SELECT * FROM comp_log WHERE team_id='". $_SESSION['team_id'] . "' AND os='windows-10' AND round_id=(SELECT round_id FROM rounds WHERE team_id='" . $_SESSION['team_id'] . "')";
+$query = "SELECT * FROM comp_log WHERE team_id='". $_SESSION['team_id'] . "' AND os='windows-server' AND round_id=(SELECT round_id FROM rounds WHERE team_id='" . $_SESSION['team_id'] . "')";
 $result = $conn1->query($query);
 if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
@@ -52,7 +52,7 @@ if ($result->num_rows > 0) {
     // Get row id or whatever you need to relate it to info in the DB
     rowid = $(e.target).attr('id');
     isChecked = $(e.target).is(':checked');
-    data = {id: rowid, active: isChecked, os: 'windows-10'};
+    data = {id: rowid, active: isChecked, os: 'windows-server'};
     
     $.ajax({
         url: '../../includes/update_db.php',
