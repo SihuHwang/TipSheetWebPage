@@ -2,17 +2,18 @@
 Webpage for CP TipSheet/Checklist
 
 Need To Do: 
-A way to email/save the README, Forensics and scorecard. 
-Need to delete Windows10/CP_Windows_Tips.html as *.php has replaced it.
+- [ ] A way to email/save the README, Forensics and scorecard. 
+- [ ] Add new checklist item feature
+- [ ] Update all the checklists tables
 
-├── favicon.ico
-├── images
-│   ├── BoiseSquadronLogo.png
-│   ├── cyberban.png
-│   ├── favicon_oldUnitPatch.ico
-│   ├── highschoolState.jpg
-│   ├── middleschoolState.jpg
-│   └── neo.gif
+├── favicon.ico <br />
+├── images <br />
+│   ├── BoiseSquadronLogo.png <br />
+│   ├── cyberban.png <br />
+│   ├── favicon_oldUnitPatch.ico <br />
+│   ├── highschoolState.jpg <br />
+│   ├── middleschoolState.jpg <br />
+│   └── neo.gif <br />
 ├── includes
 │   ├── addteam.php
 │   ├── config1_m.php
