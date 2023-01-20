@@ -56,9 +56,9 @@ Last updated: Nov 2022
 <input type="checkbox" id="permissions">Check file permissions (read your readme file!!!!) <a href="#filesystem">File System</a>
 
 <input type="checkbox" id="script">Run CP_winscript.ps1 on Windows (PowerShell run as administrator)
-<a href = 'CP_winscript.ps1' download="CP_winscript.ps1">Download CP_winscript.ps1</a> <strong>RIGHT CLICK ON LINK AND PRESS SAVE LINK AS(IF NO DOWNLOAD</strong> 
-<a href = 'LGPO.exe' download="LGPO.exe">Download LGPO.exe</a> <strong> RIGHT CLICK ON LINK AND PRESS SAVE LINK AS (IF NO DOWNLOAD)</strong> 
-<a href = 'GptTmpl.inf' download="GptTmpl.inf">Download GptTmpl.inf</a> <strong>RIGHT CLICK ON LINK AND PRESS SAVE LINK AS(IF NO DOWNLOAD</strong> 
+<a href = 'CP_winscript.ps1' download="Scripts/CP_winscript.ps1">Download CP_winscript.ps1</a> <strong>RIGHT CLICK ON LINK AND PRESS SAVE LINK AS(IF NO DOWNLOAD</strong> 
+<a href = 'LGPO.exe' download="Scripts/LGPO.exe">Download LGPO.exe</a> <strong> RIGHT CLICK ON LINK AND PRESS SAVE LINK AS (IF NO DOWNLOAD)</strong> 
+<a href = 'GptTmpl.inf' download="Scripts/GptTmpl.inf">Download GptTmpl.inf</a> <strong>RIGHT CLICK ON LINK AND PRESS SAVE LINK AS(IF NO DOWNLOAD</strong> 
 
 <input type="checkbox" id="import">Run the <strong>"lgpo.exe /s GptTmpl.inf"</strong> import 
 
