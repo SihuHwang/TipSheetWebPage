@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     	if ($result1->num_rows > 0) {
 			while($row1 = $result1->fetch_assoc()) {
-		 		$query1 = "INSERT INTO comp_log (round_id, team_id, os, item) VALUES ('$round_id', '$team_id', ' ". $os[$x] . "', '" . $row1['item'] . "')";
+		 		$query1 = "INSERT INTO comp_log (round_id, team_id, os, item) VALUES ('$round_id', '$team_id', '". $os[$x] . "', '" . mysqli_real_escape_string($conn1, $row1['item']) . "')";
 		 		$conn1->query($query1);
 		 	}
 	 	}
