@@ -72,7 +72,7 @@ Last updated: Nov 2022
 
 <input type="checkbox" id="badservice">Stop and disable unauthorized services
     o run netstat -ant and check for listening services.  
-    Check your services file to see what ports map to what services
+	  Check your services file to see what ports map to what services
            Win: C:\Windows\System32\drivers\etc\services
 
 <input type="checkbox" id="badfiles">Remove unauthorized files (mp3, m4b, .aa, .mkv, .m4r) (did you do forensics first?!)
@@ -106,7 +106,7 @@ Remove unauthorized software and programs
   Control Panel\Programs\Programs and Features
 
 Update any required software as listed in the README
-  Typically, you can open the software application and find under Help->About and get the current version.  Then Google for the software and check for the lastest version.
+	Typically, you can open the software application and find under Help->About and get the current version.  Then Google for the software and check for the lastest version.
 
 </pre>
 <a href="#toc">back to toc</a></br>
@@ -195,7 +195,7 @@ File attributes
     
 Look at the PowerShell history file for users
     C:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
-  
+	
 Alternate Data Streams (ADS)
    echo "nothing to see here" &gt; basicfile.txt
    echo "supersecret stuff" &gt; basicfile.txt:stuff
