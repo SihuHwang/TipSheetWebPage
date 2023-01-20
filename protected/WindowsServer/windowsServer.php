@@ -32,6 +32,41 @@ Last updated: Nov 2022
 <a href="#advanced">Advanced Tips</a></br>
 
 <h2>Checklist</h2>
+
+
+<?php
+require "../../includes/config1_m.php";
+$query = "SELECT * FROM comp_log WHERE team_id='". $_SESSION['team_id'] . "' AND os='windows-10' AND round_id=(SELECT round_id FROM rounds WHERE team_id='" . $_SESSION['team_id'] . "')";
+$result = $conn1->query($query);
+if ($result->num_rows > 0) {
+  while($row = $result->fetch_assoc()) {
+    if ($row['checked'] == "1") {
+     echo "<br><input type='checkbox' class='thecheckbox' id='" . $row["id"] . "' checked/>"  . $row["item"] . "<br/>"; 
+    } else {echo "<br><input type='checkbox' class='thecheckbox' id='" . $row["id"] . "'/>"  . $row["item"] . "<br/>";}
+  }
+}
+?>
+
+<script type="text/javascript">
+  $('.thecheckbox').change(function(e){
+    // Get row id or whatever you need to relate it to info in the DB
+    rowid = $(e.target).attr('id');
+    isChecked = $(e.target).is(':checked');
+    data = {id: rowid, active: isChecked, os: 'windows-10'};
+    
+    $.ajax({
+        url: '../../includes/update_db.php',
+        method: 'POST',
+        dataType: 'json',
+        data: data
+    });
+    
+});
+</script>
+
+
+
+
 <pre>
 <div id ="checkbox-container">
 <input type="checkbox" id="hidden">Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>

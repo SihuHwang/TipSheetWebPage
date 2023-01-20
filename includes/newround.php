@@ -9,12 +9,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	  $query = "INSERT INTO rounds (round_id, team_id, status) VALUES ('$round_id', '$team_id', 'ACTIVE')";
 	  $conn1->query($query);
 
+	  $os = array("windows-10", "ubuntu", "windows-server", "cisco");
 	  //Add New Checklist Items
 	  $table = array(
             array("SELECT * FROM win_ten",),
-            array("SELECT * FROM ubuntu"),
-            array("SELECT * FROM win_server"),
-            array("SELECT * FROM ciso"),
+            array("SELECT * FROM ubu"),
+            array("SELECT * FROM win_serv"),
+            array("SELECT * FROM cisco"),
           );
 	  for ($x = 0; $x <= 3; $x++) {
 	    $value = $table[$x][0];
@@ -22,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     	if ($result1->num_rows > 0) {
 			while($row1 = $result1->fetch_assoc()) {
-		 		$query1 = "INSERT INTO comp_log (round_id, team_id, os, item) VALUES ('$round_id', '$team_id', 'windows-10', '" . $row1['item'] . "')";
+		 		$query1 = "INSERT INTO comp_log (round_id, team_id, os, item) VALUES ('$round_id', '$team_id', ' ". $os[$x] . "', '" . $row1['item'] . "')";
 		 		$conn1->query($query1);
 		 	}
 	 	}
