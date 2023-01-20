@@ -14,47 +14,49 @@ Need To Do:
 │   ├── highschoolState.jpg <br />
 │   ├── middleschoolState.jpg <br />
 │   └── neo.gif <br />
-├── includes
-│   ├── addteam.php
-│   ├── config1_m.php
-│   ├── config_m.php
-│   ├── header.php
-│   ├── mysql_config.php
-│   ├── newround.php
-│   └── update_db.php
-├── index.php
-├── protected
-│   ├── App.js
-│   ├── Cisco
-│   │   └── cap_cisco_tips.php
-│   ├── index.php
-│   ├── main.php
-│   ├── README.md
-│   ├── rounds.php
-│   ├── style.css
-│   ├── teams.php
-│   ├── Ubuntu
-│   │   ├── LinuxChecklist.txt
-│   │   ├── linux_script.sh
-│   │   ├── ubuntu.js
-│   │   └── Ubuntu.php
-│   ├── UploadFiles
-│   │   ├── uploadfile.html
-│   │   ├── uploadfile.js
-│   │   └── uploadfile.php
-│   ├── Windows10
-│   │   ├── CP_Windows_Tips.html --Need to delete
-│   │   ├── CP_winscript.ps1
-│   │   ├── GptTmpl.inf
-│   │   ├── LGPO.exe
-│   │   ├── windows10.php
-│   │   └── windows.js
-│   └── WindowsServer
-│       ├── Scripts
-│       │   ├── CP_winscript.ps1
-│       │   ├── GptTmpl.inf
-│       │   └── LGPO.exe
-│       ├── windowsServer.js
-│       └── windowsServer.php
-├── README.md
-└── style.css
+├── includes <br />
+│   ├── addteam.php <br />
+│   ├── checklists <br />
+│   │   └── win_ten.sql <br />
+│   ├── config1_m.php <br />
+│   ├── config_m.php <br />
+│   ├── header.php <br />
+│   ├── mysql_config.php <br />
+│   ├── newround.php <br />
+│   └── update_db.php <br />
+├── index.php <br />
+├── protected <br />
+│   ├── App.js <br />
+│   ├── Cisco <br />
+│   │   └── cap_cisco_tips.php <br />
+│   ├── index.php <br />
+│   ├── main.php <br />
+│   ├── README.md <br />
+│   ├── rounds.php <br />
+│   ├── style.css <br />
+│   ├── teams.php <br />
+│   ├── Ubuntu <br />
+│   │   ├── LinuxChecklist.txt <br />
+│   │   ├── linux_script.sh <br />
+│   │   ├── ubuntu.js <br />
+│   │   └── Ubuntu.php <br />
+│   ├── UploadFiles <br />
+│   │   ├── uploadfile.html <br />
+│   │   ├── uploadfile.js <br />
+│   │   └── uploadfile.php <br />
+│   ├── Windows10 <br />
+│   │   ├── CP_winscript.ps1 <br />
+│   │   ├── GptTmpl.inf <br />
+│   │   ├── LGPO.exe <br />
+│   │   ├── windows10.php <br />
+│   │   └── windows.js <br />
+│   └── WindowsServer <br />
+│       ├── CP_winscript.ps1 <br />
+│       ├── GptTmpl.inf <br />
+│       ├── LGPO.exe <br />
+│       ├── windowsServer.js <br />
+│       └── windowsServer.php <br />
+├── README.md <br />
+└── style.css <br />
+
+9 directories, 43 files
