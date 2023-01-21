@@ -1,10 +1,10 @@
 #!/bin/bash
 #installation of programs
 
-sudo apt install ufw -y -qq 
-sudo apt install auditd audispd-plugins -y -qq 
-sudo apt install libpam-cracklib -y -qq 
-sudo apt install tree -y -qq
+sudo dnf install ufw -y -qq 
+sudo dnf install auditd audispd-plugins -y -qq 
+sudo dnf install libpam-cracklib -y -qq 
+sudo dnf install tree -y -qq
 
 
 #firewall settings 
@@ -232,7 +232,7 @@ do
 	if grep -wq $i /home/$USER/Desktop/temp_sudo_users; then 
 		continue
 	else 
-		sudo adduser $i sudo
+		sudo adduser $i wheel
 	fi	
 	
 done
@@ -245,7 +245,7 @@ while IFS=',' read -ra arr; do
 		if grep -wq $a /home/$USER/Desktop/readme_sudo_users; then 
 			continue
 		else 
-			sudo deluser $a sudo
+			sudo deluser $a wheel
 		fi
 	done
 done < /home/$USER/Desktop/temp_sudo_users
@@ -311,8 +311,8 @@ done < $filename
 
 #misc. 
 echo "exit 0" > /etc/rc.local
-sudo apt update openssl libssl-dev 
-sudo apt-cache policy openssl libssl-dev
+sudo dnf update openssl libssl-dev 
+sudo dnf-cache policy openssl libssl-dev
 
 echo "what critical services are required? (ssh, ftp, dns, samba, mysql, http, smtp)"
 read service 
@@ -471,7 +471,7 @@ then
 else 
 	sudo ufw deny 22 
 	sudo ufw deny ssh 
-	sudo apt-get purge openssh-server -y -qq
+	sudo dnf purge openssh-server -y -qq
 
 fi 	
 if [ $service = 'ftp' ]
@@ -494,7 +494,7 @@ else
 	sudo ufw deny saft 
 	sudo ufw deny ftps-data 
 	sudo ufw deny ftps
-	sudo apt-get purge vsftpd -y -qq
+	sudo dnf purge vsftpd -y -qq
 	sudo ufw deny 21 
 	sudo ufw deny 20
 	
@@ -510,8 +510,8 @@ then
 	sudo ufw allow netbios-dgm
 	sudo ufw allow netbios-ssn
 	sudo ufw allow microsoft-ds
-	sudo apt-get install samba -y -qq
-	sudo apt-get install system-config-samba -y -qq
+	sudo dnf install samba -y -qq
+	sudo dnf install system-config-samba -y -qq
 	sudo cp /etc/samba/smb.conf ~/Desktop/backups/
 	if [ "$(grep '####### Authentication #######' /etc/samba/smb.conf)"==0 ]
 	then
@@ -534,10 +534,10 @@ else
 	sudo ufw deny netbios-dgm
 	sudo ufw deny netbios-ssn
 	sudo ufw deny microsoft-ds
-	sudo apt-get purge samba -y -qq
-	sudo apt-get purge samba-common -y  -qq
-	sudo apt-get purge samba-common-bin -y -qq
-	sudo apt-get purge samba4 -y -qq
+	sudo dnf purge samba -y -qq
+	sudo dnf purge samba-common -y  -qq
+	sudo dnf purge samba-common-bin -y -qq
+	sudo dnf purge samba4 -y -qq
 	
 fi
 	
@@ -548,7 +548,7 @@ then
 	sudo ufw allow ms-sql-m 
 	sudo ufw allow mysql 
 	sudo ufw allow mysql-proxy
-	sudo apt-get install mysql-server-5.6 -y -qq
+	sudo dnf install mysql-server-5.6 -y -qq
 	sudo cp /etc/my.cnf ~/Desktop/backups/
 	sudo cp /etc/mysql/my.cnf ~/Desktop/backups/
 	sudo cp /usr/etc/my.cnf ~/Desktop/backups/
@@ -565,17 +565,17 @@ else
 	sudo ufw deny ms-sql-m 
 	sudo ufw deny mysql 
 	sudo ufw deny mysql-proxy
-	sudo apt-get purge mysql -y -qq
-	sudo apt-get purge mysql-client-core-5.5 -y -qq
-	sudo apt-get purge mysql-client-core-5.6 -y -qq
-	sudo apt-get purge mysql-common-5.5 -y -qq
-	sudo apt-get purge mysql-common-5.6 -y -qq
-	sudo apt-get purge mysql-server -y -qq
-	sudo apt-get purge mysql-server-5.5 -y -qq
-	sudo apt-get purge mysql-server-5.6 -y -qq
-	sudo apt-get purge mysql-client-5.5 -y -qq
-	sudo apt-get purge mysql-client-5.6 -y -qq
-	sudo apt-get purge mysql-server-core-5.6 -y -qq
+	sudo dnf purge mysql -y -qq
+	sudo dnf purge mysql-client-core-5.5 -y -qq
+	sudo dnf purge mysql-client-core-5.6 -y -qq
+	sudo dnf purge mysql-common-5.5 -y -qq
+	sudo dnf purge mysql-common-5.6 -y -qq
+	sudo dnf purge mysql-server -y -qq
+	sudo dnf purge mysql-server-5.5 -y -qq
+	sudo dnf purge mysql-server-5.6 -y -qq
+	sudo dnf purge mysql-client-5.5 -y -qq
+	sudo dnf purge mysql-client-5.6 -y -qq
+	sudo dnf purge mysql-server-core-5.6 -y -qq
 	
 	
 fi 
@@ -583,7 +583,7 @@ fi
 if [ $service = 'http' ] 
 then 
 	sudo ufw allow 80
-	sudo apt-get install apache2 -y -qq
+	sudo dnf install apache2 -y -qq
 	sudo ufw allow http 
 	sudo ufw allow https
 	sudo cp /etc/apache2/apache2.conf ~/Desktop/backups/
@@ -596,7 +596,7 @@ else
 	sudo ufw deny 80
 	sudo ufw deny http
 	sudo ufw deny https
-	sudo apt-get purge apache2 -y -qq
+	sudo dnf purge apache2 -y -qq
 	sudo rm -r /var/www/*
 fi
 	
@@ -606,7 +606,7 @@ then
 	sudo ufw allow 53
 else 
 	sudo ufw deny domain
-	sudo apt-get purge bind9 -qq
+	sudo dnf purge bind9 -qq
 fi
 
 if [ $service = 'smtp' ]
@@ -739,7 +739,7 @@ if [ $hacking == "y" ]
 then
 	for name in ${list[@]};
 	do 	
-		sudo apt remove $name 
+		sudo dnf remove $name 
 	done
 
 
@@ -756,11 +756,11 @@ echo "Start Updates?(y/n) Remove Unauthorized programs first to save time!"
 read update 
 if [ $update = "y"]
 then 
-	sudo apt autoremove -y 
+	sudo dnf autoremove -y 
 
 	#runs updates
-	sudo apt update -y
-	sudo apt upgrade -y 
-	sudo apt dist-upgrade -y
+	sudo dnf update -y
+	sudo dnf upgrade -y 
+	sudo dnf dist-upgrade -y
 fi
 exit
