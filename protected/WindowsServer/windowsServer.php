@@ -48,6 +48,26 @@ if ($result->num_rows > 0) {
 }
 ?>
 
+<input type="text" placeholder="Type here to add checklist item" id="addItem1"></input>
+<button id="addItemBut" onclick="getInputValue()">Add</button>
+
+<script>
+  function getInputValue() {
+    // Selecting the input element and get its value 
+    var inputVal = document.getElementById("addItem1").value;
+  
+    data = {item: inputVal, os: 'windows-server'};
+    $.ajax({
+      type: "POST",
+      url: "../../includes/newround.php",
+      dataType: 'json',
+      data: data
+    });
+    setInterval('location.reload()', 1000);
+  }
+setInterval('location.reload()', 10000); //Reloads page every 10 seconds
+</script>
+
 <script type="text/javascript">
   $('.thecheckbox').change(function(e){
     // Get row id or whatever you need to relate it to info in the DB
@@ -61,10 +81,8 @@ if ($result->num_rows > 0) {
         dataType: 'json',
         data: data
     });
-    
 });
 </script>
-
 
 <div id ="checkbox-container">
 <input type="checkbox" id="hidden">Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
