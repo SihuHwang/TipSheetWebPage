@@ -3,8 +3,8 @@ Webpage for CP TipSheet/Checklist
 
 Need To Do: 
 - [ ] A way to email/save the README, Forensics and scorecard. 
-- [ ] Add new checklist item feature
-- [ ] Update all the checklists tables
+- [x] Add new checklist item feature
+- [x] Update all the checklists tables
 
 ├── favicon.ico <br />
 ├── images <br />
@@ -17,6 +17,8 @@ Need To Do:
 ├── includes <br />
 │   ├── addteam.php <br />
 │   ├── checklists <br />
+│   │   ├── ubu.sql <br />
+│   │   ├── win_server.sql <br />
 │   │   └── win_ten.sql <br />
 │   ├── config1_m.php <br />
 │   ├── config_m.php <br />
