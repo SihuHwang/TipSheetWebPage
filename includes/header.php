@@ -46,6 +46,7 @@
           <li><a href="https://cyber.caphub.org/protected/teams.php">Teams</a></li>
         <?php } ?>
         <li><a href="https://cyber.caphub.org/protected/rounds.php">Rounds</a></li>
+        <li><a href="https://cyber.caphub.org/protected/vulnCats.php">Vuln Cats</a></li>
         <li><a href="help.php">Help</a></li>
         <li><a href="?logout=1">Log out</a></li>
       </ul>
@@ -59,6 +60,7 @@
           <li><a href="https://cyber.caphub.org/protected/teams.php">Teams</a></li>
         <?php } ?>
         <li><a href="https://cyber.caphub.org/protected/rounds.php">Rounds</a></li>
+        <li><a href="https://cyber.caphub.org/protected/vulnCats.php">Vuln Cats</a></li>
         <a href="help.php">Help</a>
         <a href="?logout=1">Log out</a>
       </div>
