@@ -16,6 +16,7 @@ require "../includes/header.php";
                 <a href="Windows10/windows10.php" target="_blank">Windows 10</a>
                 <a href="WindowsServer/windowsServer.php" target="_blank">Windows Server</a>
                 <a href="Ubuntu/Ubuntu.php" target="_blank">Ubuntu</a>
+                <a href="Fedora/Fedora.php" target="_blank">Fedora</a>
                 <a href="Cisco/cap_cisco_tips.php" target="_blank">Cisco</a>
                 </div>
             </div>

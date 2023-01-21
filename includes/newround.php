@@ -9,15 +9,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	  $query = "INSERT INTO rounds (round_id, team_id, status) VALUES ('$round_id', '$team_id', 'ACTIVE')";
 	  $conn1->query($query);
 
-	  $os = array("windows-10", "ubuntu", "windows-server", "cisco");
+	  $os = array("windows-10", "ubuntu", "windows-server", "fedora", "cisco");
 	  //Add New Checklist Items
 	  $table = array(
             array("SELECT * FROM win_ten",),
             array("SELECT * FROM ubu"),
             array("SELECT * FROM win_serv"),
+            array("SELECT * FROM fedora"),
             array("SELECT * FROM cisco"),
           );
-	  for ($x = 0; $x <= 3; $x++) {
+	  for ($x = 0; $x <= 4; $x++) {
 	    $value = $table[$x][0];
 		$result1 = $conn1->query($value);
 
