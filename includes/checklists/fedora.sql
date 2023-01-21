@@ -16,7 +16,7 @@ INSERT INTO `fedora` (`item`) VALUES
 ('Check file permissions <a href="#filesystem">File System</a> (read your readme file!!!!)'),
 (' Run bash script on Ubuntu
     * Set secure passwords on user accounts.  Use our "BoiseBee#1" and be consistent.
-    <a href="linux_script.sh" download="linux_script.sh">Download</a> <strong>RIGHT CLICK ON LINK AND PRESS SAVE LINK AS(IF NO DOWNLOAD)</strong> '),
+    <a href="fedora_script.sh" download="fedora_script.sh">Download</a> <strong>RIGHT CLICK ON LINK AND PRESS SAVE LINK AS(IF NO DOWNLOAD)</strong> '),
 ('Policy <a href="#secpol">Security Policy</a>'),
 ('Update the default browser as indicated in the README file (e.g. Firefox) <a href="#browser">Browser Settings</a>'),
 ('		Firefox pop-up blocker enabled'),
