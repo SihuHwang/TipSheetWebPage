@@ -44,6 +44,7 @@
        <!-- <li><a href="https://cyber.caphub.org/protected/scores.php">Scores</a></li> -->
         <?php if($_SESSION['privlv'] >= 2){ ?>
           <li><a href="https://cyber.caphub.org/protected/teams.php">Teams</a></li>
+          <li><a href="https://cyber.caphub.org/protected/dashboard/dash.php">Dashboard</a></li>
         <?php } ?>
         <li><a href="https://cyber.caphub.org/protected/rounds.php">Rounds</a></li>
         <li><a href="https://cyber.caphub.org/protected/vulnCats.php">Vuln Cats</a></li>
@@ -58,6 +59,7 @@
       <!--  <li><a href="https://cyber.caphub.org/protected/scores.php">Scores</a></li> -->
         <?php if($_SESSION['privlv'] >= 2){ ?>
           <li><a href="https://cyber.caphub.org/protected/teams.php">Teams</a></li>
+          <li><a href="https://cyber.caphub.org/protected/dashboard/dash.php">Dashboard</a></li>
         <?php } ?>
         <li><a href="https://cyber.caphub.org/protected/rounds.php">Rounds</a></li>
         <li><a href="https://cyber.caphub.org/protected/vulnCats.php">Vuln Cats</a></li>

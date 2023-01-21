@@ -1,18 +1,10 @@
 <?php
 require "../../includes/header.php";
-
-
-require "../../includes/config1_m.php";
-$query = "SELECT * FROM comp_log WHERE team_id='". $_SESSION['team_id'] . "' AND os='windows-10' AND round_id=(SELECT round_id FROM rounds WHERE team_id='" . $_SESSION['team_id'] . "')";
-$result = $conn1->query($query);
-if ($result->num_rows > 0) {
-  while($row = $result->fetch_assoc()) {
-    if ($row['checked'] == "1") {
-     echo "<br><input type='checkbox' class='thecheckbox' id='" . $row["id"] . "' checked/>"  . $row["item"] . "<br/>"; 
-    } else {echo "<br><input type='checkbox' class='thecheckbox' id='" . $row["id"] . "'/>"  . $row["item"] . "<br/>";}
-  }
-}
 ?>
+
+<script type="text/javascript">
+	setInterval('location.reload()', 10000); //Reloads page every 10 seconds
+</script>
 
 <html>
   <head>
@@ -24,42 +16,51 @@ if ($result->num_rows > 0) {
     <br>
     <div class="row">
       <div class="leftside">
-        <div class="sqmenubar">
-      </div>
-      <div class="middle">
-      <table id="teams">
+              <table id="teams">
         <tr>
-         <th>Team Name</th>
+        	<th>Team Name</th>
             <th>Team ID</th>
-            <th>Windows Comp.</th>
-            <th>Ubuntu Comp.</th>
+            <th>Windows-10</th>
+            <th>Ubuntu</th>
+            <th>Server</th>
+            <th>Fedora</th>
           </tr>
         <?php
-          require "../includes/config1_m.php";
-          $query = "SELECT * FROM teams WHERE status='ACTIVE'";
+          require "../../includes/config1_m.php";
+          $query = "SELECT team_id, team_name FROM teams WHERE status='ACTIVE'";
           $result = $conn1->query($query);
 
           if ($result->num_rows > 0) {
+          	$os = array("windows-10", "ubuntu", "windows-server", "fedora");
+          	$x = 0;
             while($row = $result->fetch_assoc()) {
               echo "<tr>";
               echo "<td>". $row['team_name'] . "</td>";
               echo "<td>" . $row['team_id'] . "</td>";
-              echo "<td>" . $row['division'] . "</td>";
-              echo "<td>" . $row['unique_id'] . "</td>";
 
-              $query = "SELECT * FROM users WHERE team_id='" . $row['team_id'] . "'";
-              $result1 = $conn1->query($query);
-              $members = "";
-              while($row1 = $result1->fetch_assoc()) { 
-                $members = $row1['first_name'] . ", " . $members;
+           	  for ($x = 0; $x <= 3; $x++) {
+	             $query = "SELECT ROUND((SELECT COUNT(*) FROM comp_log WHERE team_id='" . $row['team_id'] . "' AND os='$os[$x]' AND checked=1)/(SELECT COUNT(*) FROM comp_log WHERE team_id='" . $row['team_id'] . "' AND os='$os[$x]')*100)";
+
+	             $result1 = $conn1->query($query);
+	             while ($row1 = $result1->fetch_assoc()) {
+	             	foreach($row1 as $key => $value)
+						{
+				//		  echo $key." has the value". $value;
+					//	  echo "<br>";
+						  echo "<td>$value</td>";
+						}
+	             	
+	         	 }
               }
-              echo "<td>$members</td>";
+            
             }
           }
           $conn1->close();
         ?>
         </tr>
       </table>
-    </div>
+      </div>
+      <div class="middle">
+      </div>
   </body>
 </html>
