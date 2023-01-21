@@ -1,6 +1,5 @@
 <?php
 require "../includes/header.php";
-//cd Downloads | git clone git@github.com:SihuHwang/TipSheetWebPage.git | cd TipSheetWebPage | echo "put -r * /protected/" | sftp u1817616036@home302109391.1and1-data.host
 ?>
 
 <html>
@@ -16,7 +15,7 @@ require "../includes/header.php";
         <h3 name="version">CYBERhub v0.2.5</h3>
         <div class="lists">
           <dl>
-            <dt><b>Semifinals Round(HS) - January 22th:</b></dt>
+            <dt><b>Semifinals Round(HS) - January 21th:</b></dt>
               <ul>
                 <li>​Server 2019 - 100</li>
                 <li>​Windows 10 - ​100</li>
