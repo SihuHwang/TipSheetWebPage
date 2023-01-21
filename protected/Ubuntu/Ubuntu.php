@@ -81,6 +81,8 @@ setInterval('location.reload()', 10000); //Reloads page every 10 seconds
 });
 </script>
 
+<?php
+/*
 <div id = "checkbox-container3">
 <input type="checkbox" id="hidden3">Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
 <input type="checkbox" id="firewall3"> Enable the UCF firewall <a href="#network">Network Security</a>
@@ -125,6 +127,8 @@ Reconcile authorized users (cat /etc/passwd)
 
 <a href = "LinuxChecklist.txt">Other Checklist and useful commands</a>
 </div>
+*/
+?>
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="software">System Software &amp; Updates</h2>

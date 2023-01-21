@@ -84,8 +84,8 @@ setInterval('location.reload()', 10000); //Reloads page every 10 seconds
 </script>
 
 
-
-
+<?php
+/*
 <div id ="checkbox-container">
 <input type="checkbox" id="hidden">Enable hidden files and file extensions in file system view options <a href="#filesystem">File System</a>
 <input type="checkbox" id="firewall">Enable the firewall <a href="#network">Network Security</a>
@@ -132,6 +132,8 @@ setInterval('location.reload()', 10000); //Reloads page every 10 seconds
 <input type="checkbox" id="hacking">Remove hacking tools (nmap, rainbowcrack, ophcrack,*crack*, xhydra, wireshark, openvpn, betternetVPN, *sploit*) (did you do forensics first?!)
 <input type="checkbox" id="remote"> Set remote access related settings (RDP, openSSH) defined in README
 </div>
+*/
+?>
 </pre>
 <a href="#toc">back to toc</a></br>
 <h2 id="software">System Updates &amp; Software</h2>
